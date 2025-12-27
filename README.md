@@ -192,6 +192,4 @@ After running, check the `outputs/` folder:
 
 Python 3.9+, XGBoost, scikit-learn, pandas, numpy, scipy
 
-## License
 
-MIT License
