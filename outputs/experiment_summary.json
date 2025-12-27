@@ -1,0 +1,19 @@
+{
+  "baseline": {
+    "accuracy": 0.9962910632285411,
+    "roc_auc": 0.999982863678083
+  },
+  "final_month": {
+    "accuracy": 0.7524752475247525,
+    "roc_auc": 0.9326315666768057
+  },
+  "performance_drop": 0.24381581570378863,
+  "drift_triggers": 0,
+  "robustness": {
+    "psi_warnings": 0,
+    "ks_failures": 0,
+    "calibration_ok": true,
+    "months_to_failure": 1,
+    "degradation_pattern": "sudden"
+  }
+}

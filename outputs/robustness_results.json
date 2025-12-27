@@ -1,0 +1,7 @@
+{
+  "psi_warnings": 0,
+  "ks_failures": 0,
+  "calibration_ok": true,
+  "months_to_failure": 1,
+  "degradation_pattern": "sudden"
+}

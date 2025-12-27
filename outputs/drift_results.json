@@ -1,0 +1,1079 @@
+{
+  "history": [
+    {
+      "period": "2024-07",
+      "timestamp": "2025-12-27T02:44:32.983541",
+      "triggered": false,
+      "trigger_reasons": [],
+      "psi": {
+        "job_title": 0.020471305086822923,
+        "experience_level": 0.0029510076545303998,
+        "employment_type": 0.0016610106363741412,
+        "company_location": 0.00821500640198169,
+        "company_size": 0.0016012680013138428,
+        "industry": 0.01642954661781559,
+        "education_required": 0.0021567581690186393,
+        "years_experience": 0.013071171844399225,
+        "remote_ratio": 0.001191558851916456,
+        "job_description_length": 0.006230591213585925,
+        "benefits_score": 0.0138020654196187,
+        "skill_AWS": 0.0001311760470420368,
+        "skill_Azure": 0.0005281785688768803,
+        "skill_Computer Vision": 0.00022824206507267945,
+        "skill_Data Visualization": 0.0017838204956651317,
+        "skill_Deep Learning": 0.00019942344981560198,
+        "skill_Docker": 0.00043748447671616885,
+        "skill_GCP": 1.6172480224293325e-05,
+        "skill_Git": 0.003200158767869478,
+        "skill_Hadoop": 0.0001590292614708358,
+        "skill_Java": 0.0006729431314999876,
+        "skill_Kubernetes": 0.008474344984435911,
+        "skill_Linux": 0.00037671507197141577,
+        "skill_MLOps": 0.0010472784886050327,
+        "skill_Mathematics": 0.0002275343939559957,
+        "skill_NLP": 0.0035160030645423473,
+        "skill_PyTorch": 0.00014338852636169616,
+        "skill_Python": 0.0009064205991748426,
+        "skill_R": 0.002697167118784062,
+        "skill_SQL": 9.914023174268823e-05,
+        "skill_Scala": 0.004093502446271642,
+        "skill_Spark": 0.00015849364035418282,
+        "skill_Statistics": 8.252532976745174e-06,
+        "skill_Tableau": 0.002953378889851083,
+        "skill_TensorFlow": 0.0019999849624599037
+      },
+      "drifted_features": [],
+      "drift_ratio": 0.0,
+      "ks_tests": {
+        "job_title": {
+          "statistic": 0.03315445818288434,
+          "p_value": 0.320161393310199
+        },
+        "experience_level": {
+          "statistic": 0.019022412740812008,
+          "p_value": 0.9215866323333546
+        },
+        "employment_type": {
+          "statistic": 0.012765895535389692,
+          "p_value": 0.9990952904830172
+        },
+        "company_location": {
+          "statistic": 0.025794965540535314,
+          "p_value": 0.6352322106203627
+        },
+        "company_size": {
+          "statistic": 0.009842062168108264,
+          "p_value": 0.9999969189815566
+        },
+        "industry": {
+          "statistic": 0.03937543118070491,
+          "p_value": 0.15256563031211204
+        },
+        "education_required": {
+          "statistic": 0.013434237138429771,
+          "p_value": 0.9979836298733208
+        },
+        "years_experience": {
+          "statistic": 0.028731874756209093,
+          "p_value": 0.49723551592122694
+        },
+        "remote_ratio": {
+          "statistic": 0.015123599917345906,
+          "p_value": 0.9903899361102595
+        },
+        "job_description_length": {
+          "statistic": 0.022557680145594967,
+          "p_value": 0.7881532122003896
+        }
+      },
+      "ks_drifted_features": [],
+      "js_divergence": 0.0005932015345644515,
+      "classwise_js": {
+        "0": 0.03233422831966838,
+        "1": 0.0894256229259975,
+        "2": 0.08716649054345196,
+        "3": 0.028878333582660037
+      },
+      "skill_churn": {
+        "new_skills": [],
+        "decayed_skills": [],
+        "new_skill_count": 0,
+        "decayed_skill_count": 0,
+        "new_skill_rate": 0.0,
+        "decay_rate": 0.0,
+        "vocabulary_overlap": 1.0,
+        "reference_vocab_size": 24,
+        "current_vocab_size": 24,
+        "period": "2024-07"
+      }
+    },
+    {
+      "period": "2024-08",
+      "timestamp": "2025-12-27T02:44:33.439758",
+      "triggered": false,
+      "trigger_reasons": [],
+      "psi": {
+        "job_title": 0.004014907301346258,
+        "experience_level": 0.008784600502225817,
+        "employment_type": 0.006473971356386693,
+        "company_location": 0.017590792076469165,
+        "company_size": 0.00018202294654850134,
+        "industry": 0.011255186166870504,
+        "education_required": 0.0016101792251319513,
+        "years_experience": 0.012415820418936949,
+        "remote_ratio": 0.0015687087792676903,
+        "job_description_length": 0.01952150122623526,
+        "benefits_score": 0.01654065575694869,
+        "skill_AWS": 0.0062373081365746765,
+        "skill_Azure": 9.840039005974654e-06,
+        "skill_Computer Vision": 0.0014905533996336377,
+        "skill_Data Visualization": 0.0015067376392516733,
+        "skill_Deep Learning": 0.0030018058822808254,
+        "skill_Docker": 0.0018613683572478521,
+        "skill_GCP": 0.003940975312864321,
+        "skill_Git": 0.0007511707103603377,
+        "skill_Hadoop": 0.0036310247512457345,
+        "skill_Java": 0.00020473898948508026,
+        "skill_Kubernetes": 0.0015430298909337782,
+        "skill_Linux": 0.003696484392445995,
+        "skill_MLOps": 0.002254316077614994,
+        "skill_Mathematics": 0.0007378207795292894,
+        "skill_NLP": 0.0013563549271029807,
+        "skill_PyTorch": 4.2878207722709075e-05,
+        "skill_Python": 0.010160862252989893,
+        "skill_R": 0.0008552595709825372,
+        "skill_SQL": 0.0005221916953338634,
+        "skill_Scala": 0.003526138294828708,
+        "skill_Spark": 7.396714683637791e-06,
+        "skill_Statistics": 0.0010242984251554194,
+        "skill_Tableau": 0.0021251573062921157,
+        "skill_TensorFlow": 0.0001220375304958547
+      },
+      "drifted_features": [],
+      "drift_ratio": 0.0,
+      "ks_tests": {
+        "job_title": {
+          "statistic": 0.016444464764916313,
+          "p_value": 0.9767075861423583
+        },
+        "experience_level": {
+          "statistic": 0.03579516669382891,
+          "p_value": 0.2380522422882772
+        },
+        "employment_type": {
+          "statistic": 0.028904928951682424,
+          "p_value": 0.4900681870923891
+        },
+        "company_location": {
+          "statistic": 0.03766862406889426,
+          "p_value": 0.18986196563612026
+        },
+        "company_size": {
+          "statistic": 0.00497769623369067,
+          "p_value": 1.0
+        },
+        "industry": {
+          "statistic": 0.019710570930696458,
+          "p_value": 0.9005613728940088
+        },
+        "education_required": {
+          "statistic": 0.013940130482010605,
+          "p_value": 0.9965967968773108
+        },
+        "years_experience": {
+          "statistic": 0.03335314579340422,
+          "p_value": 0.3138393010603181
+        },
+        "remote_ratio": {
+          "statistic": 0.017714330381866733,
+          "p_value": 0.9546313232511057
+        },
+        "job_description_length": {
+          "statistic": 0.03007081602508464,
+          "p_value": 0.43942998082922297
+        }
+      },
+      "ks_drifted_features": [],
+      "js_divergence": 0.0003972282876304514,
+      "classwise_js": {
+        "0": 0.03427718816180874,
+        "1": 0.0886903214931709,
+        "2": 0.0979438235451225,
+        "3": 0.04272743526110428
+      },
+      "skill_churn": {
+        "new_skills": [],
+        "decayed_skills": [],
+        "new_skill_count": 0,
+        "decayed_skill_count": 0,
+        "new_skill_rate": 0.0,
+        "decay_rate": 0.0,
+        "vocabulary_overlap": 1.0,
+        "reference_vocab_size": 24,
+        "current_vocab_size": 24,
+        "period": "2024-08"
+      }
+    },
+    {
+      "period": "2024-09",
+      "timestamp": "2025-12-27T02:44:33.862260",
+      "triggered": false,
+      "trigger_reasons": [],
+      "psi": {
+        "job_title": 0.016545777639066252,
+        "experience_level": 0.0026697003328282703,
+        "employment_type": 0.002303906198750657,
+        "company_location": 0.02303204110499051,
+        "company_size": 0.0007703685953776308,
+        "industry": 0.015997074051427324,
+        "education_required": 0.003411703218053312,
+        "years_experience": 0.018603124709476646,
+        "remote_ratio": 0.0010695660534091713,
+        "job_description_length": 0.011635526828737051,
+        "benefits_score": 0.017199960668274897,
+        "skill_AWS": 0.0028909630132147156,
+        "skill_Azure": 0.00016825556389688843,
+        "skill_Computer Vision": 0.0014720356930009902,
+        "skill_Data Visualization": 0.0008665167467273368,
+        "skill_Deep Learning": 0.00016293292274346065,
+        "skill_Docker": 0.00023211544507325367,
+        "skill_GCP": 5.782119286017819e-05,
+        "skill_Git": 0.00022311809775181387,
+        "skill_Hadoop": 0.0015369679413118808,
+        "skill_Java": 0.0013866317904551273,
+        "skill_Kubernetes": 2.8171708482202374e-05,
+        "skill_Linux": 1.6637164535531558e-06,
+        "skill_MLOps": 2.4137256747489716e-06,
+        "skill_Mathematics": 0.002619778454494022,
+        "skill_NLP": 0.00011367072904322069,
+        "skill_PyTorch": 0.012391657772596102,
+        "skill_Python": 0.00223712134685168,
+        "skill_R": 0.0014950447852312995,
+        "skill_SQL": 1.4731279970658073e-05,
+        "skill_Scala": 0.0010661904386676585,
+        "skill_Spark": 0.003440732340528511,
+        "skill_Statistics": 1.3165418706196525e-05,
+        "skill_Tableau": 0.0012405717058740129,
+        "skill_TensorFlow": 0.0015611893415361064
+      },
+      "drifted_features": [],
+      "drift_ratio": 0.0,
+      "ks_tests": {
+        "job_title": {
+          "statistic": 0.03339503383331788,
+          "p_value": 0.3461639090593308
+        },
+        "experience_level": {
+          "statistic": 0.02002904791129336,
+          "p_value": 0.9087181302900116
+        },
+        "employment_type": {
+          "statistic": 0.016367077192061555,
+          "p_value": 0.9834015544551638
+        },
+        "company_location": {
+          "statistic": 0.03721270293577294,
+          "p_value": 0.22840113661553751
+        },
+        "company_size": {
+          "statistic": 0.012776936905647568,
+          "p_value": 0.9994429580307703
+        },
+        "industry": {
+          "statistic": 0.026404196160229227,
+          "p_value": 0.6428699587853484
+        },
+        "education_required": {
+          "statistic": 0.014889027901387077,
+          "p_value": 0.9944430504286009
+        },
+        "years_experience": {
+          "statistic": 0.03255339428395517,
+          "p_value": 0.3768246610701537
+        },
+        "remote_ratio": {
+          "statistic": 0.015257060201401483,
+          "p_value": 0.9924715366913011
+        },
+        "job_description_length": {
+          "statistic": 0.026247708431590393,
+          "p_value": 0.650208004427572
+        }
+      },
+      "ks_drifted_features": [],
+      "js_divergence": 0.00023458550949713694,
+      "classwise_js": {
+        "0": 0.029787307252304045,
+        "1": 0.08336007626870334,
+        "2": 0.09432797522777238,
+        "3": 0.04098690285150272
+      },
+      "skill_churn": {
+        "new_skills": [],
+        "decayed_skills": [],
+        "new_skill_count": 0,
+        "decayed_skill_count": 0,
+        "new_skill_rate": 0.0,
+        "decay_rate": 0.0,
+        "vocabulary_overlap": 1.0,
+        "reference_vocab_size": 24,
+        "current_vocab_size": 24,
+        "period": "2024-09"
+      }
+    },
+    {
+      "period": "2024-10",
+      "timestamp": "2025-12-27T02:44:34.346260",
+      "triggered": false,
+      "trigger_reasons": [],
+      "psi": {
+        "job_title": 0.0049433404580408275,
+        "experience_level": 7.022615342189912e-05,
+        "employment_type": 0.0013758270982908126,
+        "company_location": 0.011811145240740733,
+        "company_size": 0.0008016821389927949,
+        "industry": 0.007590142706626483,
+        "education_required": 0.002150377133657935,
+        "years_experience": 0.005504643144267324,
+        "remote_ratio": 0.0006603454976219218,
+        "job_description_length": 0.007705824624731644,
+        "benefits_score": 0.008982530452335956,
+        "skill_AWS": 0.00147206276356496,
+        "skill_Azure": 0.0007518728412780262,
+        "skill_Computer Vision": 9.663493756910717e-05,
+        "skill_Data Visualization": 0.002512404978315732,
+        "skill_Deep Learning": 0.00024253882979456473,
+        "skill_Docker": 0.00132844698069747,
+        "skill_GCP": 7.620152863751917e-05,
+        "skill_Git": 4.281528387965038e-06,
+        "skill_Hadoop": 0.00013251783385195473,
+        "skill_Java": 0.010066888656074052,
+        "skill_Kubernetes": 0.0038676090900840697,
+        "skill_Linux": 0.0004039031907712383,
+        "skill_MLOps": 0.0026985714893922644,
+        "skill_Mathematics": 0.002112824583877531,
+        "skill_NLP": 0.00025775209707094225,
+        "skill_PyTorch": 0.0001328467481555525,
+        "skill_Python": 1.3756811991685338e-05,
+        "skill_R": 0.0007859463908812624,
+        "skill_SQL": 0.0003809007341102399,
+        "skill_Scala": 1.653473375276767e-05,
+        "skill_Spark": 0.001074291597607314,
+        "skill_Statistics": 7.080559520461389e-06,
+        "skill_Tableau": 8.62779612394528e-06,
+        "skill_TensorFlow": 0.00044337110221301113
+      },
+      "drifted_features": [],
+      "drift_ratio": 0.0,
+      "ks_tests": {
+        "job_title": {
+          "statistic": 0.025219430071774226,
+          "p_value": 0.6684183004276819
+        },
+        "experience_level": {
+          "statistic": 0.0029578068196495296,
+          "p_value": 1.0
+        },
+        "employment_type": {
+          "statistic": 0.01461893182472096,
+          "p_value": 0.9939535237969682
+        },
+        "company_location": {
+          "statistic": 0.03230398504588853,
+          "p_value": 0.35583324647908543
+        },
+        "company_size": {
+          "statistic": 0.011700952014409188,
+          "p_value": 0.9998289844916068
+        },
+        "industry": {
+          "statistic": 0.016686958589960096,
+          "p_value": 0.974192791456687
+        },
+        "education_required": {
+          "statistic": 0.019123106030293092,
+          "p_value": 0.9211068871345682
+        },
+        "years_experience": {
+          "statistic": 0.019381423268427716,
+          "p_value": 0.9134294401233494
+        },
+        "remote_ratio": {
+          "statistic": 0.01134046174764639,
+          "p_value": 0.9999103126851541
+        },
+        "job_description_length": {
+          "statistic": 0.029397916116874034,
+          "p_value": 0.4734438604763687
+        }
+      },
+      "ks_drifted_features": [],
+      "js_divergence": 0.0001555016660567553,
+      "classwise_js": {
+        "0": 0.0336419303639078,
+        "1": 0.0885545510356182,
+        "2": 0.08808730307745552,
+        "3": 0.031417949915342795
+      },
+      "skill_churn": {
+        "new_skills": [],
+        "decayed_skills": [],
+        "new_skill_count": 0,
+        "decayed_skill_count": 0,
+        "new_skill_rate": 0.0,
+        "decay_rate": 0.0,
+        "vocabulary_overlap": 1.0,
+        "reference_vocab_size": 24,
+        "current_vocab_size": 24,
+        "period": "2024-10"
+      }
+    },
+    {
+      "period": "2024-11",
+      "timestamp": "2025-12-27T02:44:34.813811",
+      "triggered": false,
+      "trigger_reasons": [],
+      "psi": {
+        "job_title": 0.00585322717153737,
+        "experience_level": 0.008469521618379928,
+        "employment_type": 0.0037173560848928868,
+        "company_location": 0.00402216057488232,
+        "company_size": 0.0008329291550241375,
+        "industry": 0.009525599245095433,
+        "education_required": 0.002335239840403832,
+        "years_experience": 0.01498775130684905,
+        "remote_ratio": 0.005589989193630397,
+        "job_description_length": 0.007063016452795498,
+        "benefits_score": 0.018195453847134193,
+        "skill_AWS": 0.0014614138032088887,
+        "skill_Azure": 0.0006140568831219564,
+        "skill_Computer Vision": 0.0001787189744073567,
+        "skill_Data Visualization": 0.0002876586891019789,
+        "skill_Deep Learning": 0.0009477903243449112,
+        "skill_Docker": 3.700263245098883e-05,
+        "skill_GCP": 0.00012507035897858386,
+        "skill_Git": 0.0021310960065045173,
+        "skill_Hadoop": 0.00015756030147010761,
+        "skill_Java": 0.0017979651757461094,
+        "skill_Kubernetes": 0.0016211452265728506,
+        "skill_Linux": 0.001686314160390424,
+        "skill_MLOps": 2.470522762944029e-05,
+        "skill_Mathematics": 0.008689907022344364,
+        "skill_NLP": 0.0005556925221623971,
+        "skill_PyTorch": 0.0015295957435251832,
+        "skill_Python": 1.786833426313678e-06,
+        "skill_R": 0.00011486198138883563,
+        "skill_SQL": 0.00038935919127416793,
+        "skill_Scala": 0.0006922594539567574,
+        "skill_Spark": 0.0002470683471186368,
+        "skill_Statistics": 6.89876984517968e-05,
+        "skill_Tableau": 0.002558544217928765,
+        "skill_TensorFlow": 0.0004093436154864584
+      },
+      "drifted_features": [],
+      "drift_ratio": 0.0,
+      "ks_tests": {
+        "job_title": {
+          "statistic": 0.015604658985465382,
+          "p_value": 0.9886438147241298
+        },
+        "experience_level": {
+          "statistic": 0.026131128020957926,
+          "p_value": 0.6399855611130337
+        },
+        "employment_type": {
+          "statistic": 0.021063665292305286,
+          "p_value": 0.8647171715536675
+        },
+        "company_location": {
+          "statistic": 0.013114794294037734,
+          "p_value": 0.998929012744258
+        },
+        "company_size": {
+          "statistic": 0.007214822567928213,
+          "p_value": 0.9999999999926139
+        },
+        "industry": {
+          "statistic": 0.014410872498546078,
+          "p_value": 0.9957174801075734
+        },
+        "education_required": {
+          "statistic": 0.010314989529465761,
+          "p_value": 0.999992959143854
+        },
+        "years_experience": {
+          "statistic": 0.026131128020957926,
+          "p_value": 0.6399855611130337
+        },
+        "remote_ratio": {
+          "statistic": 0.027591945695740756,
+          "p_value": 0.5711453782834035
+        },
+        "job_description_length": {
+          "statistic": 0.032111170791921786,
+          "p_value": 0.37797220631114553
+        }
+      },
+      "ks_drifted_features": [],
+      "js_divergence": 6.311897165671936e-05,
+      "classwise_js": {
+        "0": 0.032834181671466484,
+        "1": 0.10127895311069611,
+        "2": 0.09482749285577886,
+        "3": 0.04044308222897761
+      },
+      "skill_churn": {
+        "new_skills": [],
+        "decayed_skills": [],
+        "new_skill_count": 0,
+        "decayed_skill_count": 0,
+        "new_skill_rate": 0.0,
+        "decay_rate": 0.0,
+        "vocabulary_overlap": 1.0,
+        "reference_vocab_size": 24,
+        "current_vocab_size": 24,
+        "period": "2024-11"
+      }
+    },
+    {
+      "period": "2024-12",
+      "timestamp": "2025-12-27T02:44:35.274210",
+      "triggered": false,
+      "trigger_reasons": [],
+      "psi": {
+        "job_title": 0.009545806826474013,
+        "experience_level": 0.0030841418004613043,
+        "employment_type": 0.0013677208771119384,
+        "company_location": 0.006349517125906926,
+        "company_size": 0.0035986704826214177,
+        "industry": 0.01448827206085981,
+        "education_required": 0.006566678076221863,
+        "years_experience": 0.007234082759898642,
+        "remote_ratio": 0.0006655323925462282,
+        "job_description_length": 0.0034753756083768933,
+        "benefits_score": 0.010090547655646865,
+        "skill_AWS": 0.0006305291329552839,
+        "skill_Azure": 0.0018697659789336716,
+        "skill_Computer Vision": 0.0005099254132469729,
+        "skill_Data Visualization": 0.0013145006376258895,
+        "skill_Deep Learning": 0.003594100137763267,
+        "skill_Docker": 0.003217151550042586,
+        "skill_GCP": 0.00023570807654600115,
+        "skill_Git": 0.00036754881102355147,
+        "skill_Hadoop": 0.0005704391352785356,
+        "skill_Java": 0.001182371417152346,
+        "skill_Kubernetes": 0.0006635648113505884,
+        "skill_Linux": 0.001727921481216589,
+        "skill_MLOps": 0.0010922329645614683,
+        "skill_Mathematics": 0.0016171500242005699,
+        "skill_NLP": 0.0009350569299453926,
+        "skill_PyTorch": 0.011138845801642037,
+        "skill_Python": 0.0040501799078843225,
+        "skill_R": 0.003981347700851072,
+        "skill_SQL": 0.0024047670878295357,
+        "skill_Scala": 0.0006393900983297986,
+        "skill_Spark": 0.0002872093261413481,
+        "skill_Statistics": 0.00014993314524535116,
+        "skill_Tableau": 0.008870032575656212,
+        "skill_TensorFlow": 7.641409038351306e-06
+      },
+      "drifted_features": [],
+      "drift_ratio": 0.0,
+      "ks_tests": {
+        "job_title": {
+          "statistic": 0.027107338718618423,
+          "p_value": 0.5723661142488117
+        },
+        "experience_level": {
+          "statistic": 0.019765710263509654,
+          "p_value": 0.8984545544464361
+        },
+        "employment_type": {
+          "statistic": 0.014023386983600675,
+          "p_value": 0.9962848823410213
+        },
+        "company_location": {
+          "statistic": 0.02129834702859633,
+          "p_value": 0.8418389421889088
+        },
+        "company_size": {
+          "statistic": 0.026668837380277716,
+          "p_value": 0.5932268883209673
+        },
+        "industry": {
+          "statistic": 0.029813118501441475,
+          "p_value": 0.4498032687644073
+        },
+        "education_required": {
+          "statistic": 0.03169935567375795,
+          "p_value": 0.37325270121714854
+        },
+        "years_experience": {
+          "statistic": 0.010989974323453763,
+          "p_value": 0.9999503526879199
+        },
+        "remote_ratio": {
+          "statistic": 0.011995341314634747,
+          "p_value": 0.9996986843217376
+        },
+        "job_description_length": {
+          "statistic": 0.02046959607415148,
+          "p_value": 0.873831099634072
+        }
+      },
+      "ks_drifted_features": [],
+      "js_divergence": 0.0003080464305165151,
+      "classwise_js": {
+        "0": 0.027075579479269585,
+        "1": 0.09398558032215469,
+        "2": 0.08572904814311555,
+        "3": 0.025258581073919477
+      },
+      "skill_churn": {
+        "new_skills": [],
+        "decayed_skills": [],
+        "new_skill_count": 0,
+        "decayed_skill_count": 0,
+        "new_skill_rate": 0.0,
+        "decay_rate": 0.0,
+        "vocabulary_overlap": 1.0,
+        "reference_vocab_size": 24,
+        "current_vocab_size": 24,
+        "period": "2024-12"
+      }
+    },
+    {
+      "period": "2025-01",
+      "timestamp": "2025-12-27T02:44:35.757773",
+      "triggered": false,
+      "trigger_reasons": [],
+      "psi": {
+        "job_title": 0.01588266282884882,
+        "experience_level": 0.001589450465539684,
+        "employment_type": 0.002009349113405575,
+        "company_location": 0.010486561365641911,
+        "company_size": 0.002283762462426454,
+        "industry": 0.006917412679012882,
+        "education_required": 0.00391964667903577,
+        "years_experience": 0.009026562528663863,
+        "remote_ratio": 0.003898946210183522,
+        "job_description_length": 0.013185601665745353,
+        "benefits_score": 0.006055309095946391,
+        "skill_AWS": 0.002991860086509292,
+        "skill_Azure": 7.288195624985247e-08,
+        "skill_Computer Vision": 0.0029021426921920284,
+        "skill_Data Visualization": 0.0011107331842111646,
+        "skill_Deep Learning": 0.00232862912300542,
+        "skill_Docker": 0.0005222084806689789,
+        "skill_GCP": 0.002674852611181226,
+        "skill_Git": 0.0004725469364781915,
+        "skill_Hadoop": 0.0008954225102760578,
+        "skill_Java": 0.0017912601879120132,
+        "skill_Kubernetes": 0.0051483853509587535,
+        "skill_Linux": 0.00044825898040364227,
+        "skill_MLOps": 0.00011098868115462293,
+        "skill_Mathematics": 0.00011967037970006021,
+        "skill_NLP": 0.00010141429863763245,
+        "skill_PyTorch": 4.498709122100601e-05,
+        "skill_Python": 0.0001946493715259166,
+        "skill_R": 1.547953769274757e-05,
+        "skill_SQL": 0.0010782610260123035,
+        "skill_Scala": 0.0004975889132514788,
+        "skill_Spark": 0.0008505866944937082,
+        "skill_Statistics": 0.00022193892082245502,
+        "skill_Tableau": 0.00016553526033765027,
+        "skill_TensorFlow": 0.0011096555008141646
+      },
+      "drifted_features": [],
+      "drift_ratio": 0.0,
+      "ks_tests": {
+        "job_title": {
+          "statistic": 0.0314167684102065,
+          "p_value": 0.3814822877629483
+        },
+        "experience_level": {
+          "statistic": 0.018430726207035033,
+          "p_value": 0.9366894697609413
+        },
+        "employment_type": {
+          "statistic": 0.01220665981699354,
+          "p_value": 0.9995671679736277
+        },
+        "company_location": {
+          "statistic": 0.025867653762214723,
+          "p_value": 0.628984624838743
+        },
+        "company_size": {
+          "statistic": 0.022601722775847134,
+          "p_value": 0.7839643829467483
+        },
+        "industry": {
+          "statistic": 0.018346815268419733,
+          "p_value": 0.9388376103250127
+        },
+        "education_required": {
+          "statistic": 0.02297694024808324,
+          "p_value": 0.7669283381148012
+        },
+        "years_experience": {
+          "statistic": 0.022038530144180245,
+          "p_value": 0.8088293502825904
+        },
+        "remote_ratio": {
+          "statistic": 0.028915196454194887,
+          "p_value": 0.48619604617806716
+        },
+        "job_description_length": {
+          "statistic": 0.034079566623819564,
+          "p_value": 0.286804416688552
+        }
+      },
+      "ks_drifted_features": [],
+      "js_divergence": 0.0003364591007183734,
+      "classwise_js": {
+        "0": 0.0232970856313019,
+        "1": 0.09507948811072445,
+        "2": 0.09100242483697706,
+        "3": 0.033443581704368924
+      },
+      "skill_churn": {
+        "new_skills": [],
+        "decayed_skills": [],
+        "new_skill_count": 0,
+        "decayed_skill_count": 0,
+        "new_skill_rate": 0.0,
+        "decay_rate": 0.0,
+        "vocabulary_overlap": 1.0,
+        "reference_vocab_size": 24,
+        "current_vocab_size": 24,
+        "period": "2025-01"
+      }
+    },
+    {
+      "period": "2025-02",
+      "timestamp": "2025-12-27T02:44:36.186263",
+      "triggered": false,
+      "trigger_reasons": [],
+      "psi": {
+        "job_title": 0.02092874989566596,
+        "experience_level": 0.0038469986877224895,
+        "employment_type": 0.0019700521190141166,
+        "company_location": 0.007401187274417312,
+        "company_size": 0.003036939957222098,
+        "industry": 0.013110661563472549,
+        "education_required": 0.006615391065791157,
+        "years_experience": 0.012275169141583414,
+        "remote_ratio": 0.0010469142597578965,
+        "job_description_length": 0.011714897777525556,
+        "benefits_score": 0.00925483611099813,
+        "skill_AWS": 0.0012413976420865488,
+        "skill_Azure": 0.00011743665225057384,
+        "skill_Computer Vision": 0.0007516287172403569,
+        "skill_Data Visualization": 7.830594835904606e-06,
+        "skill_Deep Learning": 0.0007680133693427888,
+        "skill_Docker": 0.0005519998470292045,
+        "skill_GCP": 0.007842220426592574,
+        "skill_Git": 0.00011488333766514947,
+        "skill_Hadoop": 0.007293129448184437,
+        "skill_Java": 0.00012106706063141751,
+        "skill_Kubernetes": 0.002354550307777147,
+        "skill_Linux": 0.004177269230686587,
+        "skill_MLOps": 0.0005162154700052519,
+        "skill_Mathematics": 0.004113133909047185,
+        "skill_NLP": 0.0005705302448670456,
+        "skill_PyTorch": 0.0006772533027355458,
+        "skill_Python": 4.484127464400857e-05,
+        "skill_R": 0.006835280718525995,
+        "skill_SQL": 0.00039752561831039326,
+        "skill_Scala": 0.00468753208572491,
+        "skill_Spark": 0.0007206721286659773,
+        "skill_Statistics": 0.0014018827147756388,
+        "skill_Tableau": 0.00022215355577540017,
+        "skill_TensorFlow": 0.00292428816618879
+      },
+      "drifted_features": [],
+      "drift_ratio": 0.0,
+      "ks_tests": {
+        "job_title": {
+          "statistic": 0.029920859194967283,
+          "p_value": 0.5182729754458447
+        },
+        "experience_level": {
+          "statistic": 0.02544154009184034,
+          "p_value": 0.7197643866013412
+        },
+        "employment_type": {
+          "statistic": 0.0180829590755412,
+          "p_value": 0.9665726171866811
+        },
+        "company_location": {
+          "statistic": 0.02248111890464416,
+          "p_value": 0.8441258259415908
+        },
+        "company_size": {
+          "statistic": 0.02251433954012548,
+          "p_value": 0.842868218704936
+        },
+        "industry": {
+          "statistic": 0.027362870262905587,
+          "p_value": 0.6324843176012621
+        },
+        "education_required": {
+          "statistic": 0.032181964979563,
+          "p_value": 0.4249533315870052
+        },
+        "years_experience": {
+          "statistic": 0.02544154009184034,
+          "p_value": 0.7197643866013412
+        },
+        "remote_ratio": {
+          "statistic": 0.013101545810835814,
+          "p_value": 0.999462448754415
+        },
+        "job_description_length": {
+          "statistic": 0.02981783317353787,
+          "p_value": 0.522738177190122
+        }
+      },
+      "ks_drifted_features": [],
+      "js_divergence": 0.0003989581792385881,
+      "classwise_js": {
+        "0": 0.027381142540810706,
+        "1": 0.08268293555649682,
+        "2": 0.09800517053359904,
+        "3": 0.03491991486837137
+      },
+      "skill_churn": {
+        "new_skills": [],
+        "decayed_skills": [],
+        "new_skill_count": 0,
+        "decayed_skill_count": 0,
+        "new_skill_rate": 0.0,
+        "decay_rate": 0.0,
+        "vocabulary_overlap": 1.0,
+        "reference_vocab_size": 24,
+        "current_vocab_size": 24,
+        "period": "2025-02"
+      }
+    },
+    {
+      "period": "2025-03",
+      "timestamp": "2025-12-27T02:44:36.630196",
+      "triggered": false,
+      "trigger_reasons": [],
+      "psi": {
+        "job_title": 0.02447173090012818,
+        "experience_level": 0.0032990586031675343,
+        "employment_type": 0.004459679771503519,
+        "company_location": 0.01225260674416526,
+        "company_size": 3.581904956271057e-05,
+        "industry": 0.005371046928799304,
+        "education_required": 0.0018602275188492764,
+        "years_experience": 0.007684571964261782,
+        "remote_ratio": 0.0007877324365978445,
+        "job_description_length": 0.012942005335242398,
+        "benefits_score": 0.007406620820966442,
+        "skill_AWS": 0.0035386199969532667,
+        "skill_Azure": 8.14713321617168e-05,
+        "skill_Computer Vision": 2.221412973065069e-05,
+        "skill_Data Visualization": 0.0014801613115532812,
+        "skill_Deep Learning": 1.4322440524093386e-07,
+        "skill_Docker": 0.002452239044939431,
+        "skill_GCP": 0.0007389203685996594,
+        "skill_Git": 0.00165090340394632,
+        "skill_Hadoop": 0.00030027757448626666,
+        "skill_Java": 0.0016180074684334143,
+        "skill_Kubernetes": 0.0025979494441857325,
+        "skill_Linux": 0.0003405894010436658,
+        "skill_MLOps": 0.0002826450990376771,
+        "skill_Mathematics": 9.564081493375885e-05,
+        "skill_NLP": 0.0011040830414793996,
+        "skill_PyTorch": 0.000508481704409667,
+        "skill_Python": 6.588371633830995e-05,
+        "skill_R": 0.00011486198138883563,
+        "skill_SQL": 0.0002101652216607451,
+        "skill_Scala": 0.0030208584674829785,
+        "skill_Spark": 0.0032061347646300128,
+        "skill_Statistics": 0.0017486552196688,
+        "skill_Tableau": 8.0813730933588e-07,
+        "skill_TensorFlow": 4.710809541341755e-05
+      },
+      "drifted_features": [],
+      "drift_ratio": 0.0,
+      "ks_tests": {
+        "job_title": {
+          "statistic": 0.015848703270499913,
+          "p_value": 0.9865183931601462
+        },
+        "experience_level": {
+          "statistic": 0.022298828204316785,
+          "p_value": 0.8156377951304811
+        },
+        "employment_type": {
+          "statistic": 0.026637222998243035,
+          "p_value": 0.6159840993079779
+        },
+        "company_location": {
+          "statistic": 0.02456265501792595,
+          "p_value": 0.714193885749361
+        },
+        "company_size": {
+          "statistic": 0.002018250068386036,
+          "p_value": 1.0
+        },
+        "industry": {
+          "statistic": 0.010249859971450268,
+          "p_value": 0.9999940547394709
+        },
+        "education_required": {
+          "statistic": 0.01682488041063803,
+          "p_value": 0.9751773065835901
+        },
+        "years_experience": {
+          "statistic": 0.02941825512550466,
+          "p_value": 0.48842981319597706
+        },
+        "remote_ratio": {
+          "statistic": 0.012407563916998892,
+          "p_value": 0.9995863731516292
+        },
+        "job_description_length": {
+          "statistic": 0.0381030901293473,
+          "p_value": 0.19421758733460456
+        }
+      },
+      "ks_drifted_features": [],
+      "js_divergence": 0.0007015172351011462,
+      "classwise_js": {
+        "0": 0.02632590599229324,
+        "1": 0.08746678295433354,
+        "2": 0.0963404179828242,
+        "3": 0.033604127860728084
+      },
+      "skill_churn": {
+        "new_skills": [],
+        "decayed_skills": [],
+        "new_skill_count": 0,
+        "decayed_skill_count": 0,
+        "new_skill_rate": 0.0,
+        "decay_rate": 0.0,
+        "vocabulary_overlap": 1.0,
+        "reference_vocab_size": 24,
+        "current_vocab_size": 24,
+        "period": "2025-03"
+      }
+    },
+    {
+      "period": "2025-04",
+      "timestamp": "2025-12-27T02:44:37.059220",
+      "triggered": false,
+      "trigger_reasons": [],
+      "psi": {
+        "job_title": 0.011800631703362175,
+        "experience_level": 0.008530071182046088,
+        "employment_type": 0.0010625243488699854,
+        "company_location": 0.02206181548131627,
+        "company_size": 0.0022136015552324862,
+        "industry": 0.010804284611478258,
+        "education_required": 0.00029482385175441835,
+        "years_experience": 0.01166056274528086,
+        "remote_ratio": 0.00016386799165350562,
+        "job_description_length": 0.008899341744337904,
+        "benefits_score": 0.006030280666665937,
+        "skill_AWS": 0.0003636785274346709,
+        "skill_Azure": 9.217409389801572e-05,
+        "skill_Computer Vision": 0.0007132214638679034,
+        "skill_Data Visualization": 0.0009670370703576046,
+        "skill_Deep Learning": 0.000360634294675487,
+        "skill_Docker": 0.0007467436417184768,
+        "skill_GCP": 0.0005494576318484519,
+        "skill_Git": 9.47387060974099e-05,
+        "skill_Hadoop": 4.707832753002706e-05,
+        "skill_Java": 0.00024236686103755394,
+        "skill_Kubernetes": 0.0005238160065317582,
+        "skill_Linux": 0.00040427124119346927,
+        "skill_MLOps": 0.0019743667597716735,
+        "skill_Mathematics": 0.0031137599530069162,
+        "skill_NLP": 0.0008541800422011839,
+        "skill_PyTorch": 0.00010958293219222659,
+        "skill_Python": 0.0004170416506334211,
+        "skill_R": 0.0045535806945979085,
+        "skill_SQL": 0.00014826185722836442,
+        "skill_Scala": 0.0036660585779903073,
+        "skill_Spark": 0.0002444670804867516,
+        "skill_Statistics": 0.0029493804321239145,
+        "skill_Tableau": 2.3522815866369777e-05,
+        "skill_TensorFlow": 2.3532192262323904e-07
+      },
+      "drifted_features": [],
+      "drift_ratio": 0.0,
+      "ks_tests": {
+        "job_title": {
+          "statistic": 0.015125832611519717,
+          "p_value": 0.9926541746538727
+        },
+        "experience_level": {
+          "statistic": 0.020518547792610416,
+          "p_value": 0.8886081503682907
+        },
+        "employment_type": {
+          "statistic": 0.015406786174908553,
+          "p_value": 0.9908494120668097
+        },
+        "company_location": {
+          "statistic": 0.022640854689495796,
+          "p_value": 0.8069655880799496
+        },
+        "company_size": {
+          "statistic": 0.02109716446741813,
+          "p_value": 0.8682029598127182
+        },
+        "industry": {
+          "statistic": 0.03378670611674378,
+          "p_value": 0.3247503607936143
+        },
+        "education_required": {
+          "statistic": 0.006252285419287249,
+          "p_value": 1.0
+        },
+        "years_experience": {
+          "statistic": 0.04523838113235555,
+          "p_value": 0.07830585252710093
+        },
+        "remote_ratio": {
+          "statistic": 0.005946073236783233,
+          "p_value": 1.0
+        },
+        "job_description_length": {
+          "statistic": 0.03273497607620176,
+          "p_value": 0.36203076932657924
+        }
+      },
+      "ks_drifted_features": [],
+      "js_divergence": 0.0009574783914759668,
+      "classwise_js": {
+        "0": 0.01577054412798088,
+        "1": 0.07293459351827208,
+        "2": 0.09548012406522437,
+        "3": 0.03187111582530693
+      },
+      "skill_churn": {
+        "new_skills": [],
+        "decayed_skills": [],
+        "new_skill_count": 0,
+        "decayed_skill_count": 0,
+        "new_skill_rate": 0.0,
+        "decay_rate": 0.0,
+        "vocabulary_overlap": 1.0,
+        "reference_vocab_size": 24,
+        "current_vocab_size": 24,
+        "period": "2025-04"
+      }
+    }
+  ],
+  "summary": {
+    "total_periods": 10,
+    "triggered_periods": 0,
+    "triggers": []
+  }
+}

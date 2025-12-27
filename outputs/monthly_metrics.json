@@ -1,0 +1,2149 @@
+{
+  "baseline": {
+    "accuracy": 0.9962910632285411,
+    "roc_auc": 0.999982863678083,
+    "calibration": {
+      "ece": 0.13004219992048788,
+      "mce": 0.3380340306989609,
+      "bin_stats": [
+        {
+          "bin": "0.4-0.5",
+          "proportion": 0.003355704697986577,
+          "avg_confidence": 0.47733211517333984,
+          "avg_accuracy": 0.631578947368421,
+          "gap": 0.15424683219508117
+        },
+        {
+          "bin": "0.5-0.6",
+          "proportion": 0.017308371600141294,
+          "avg_confidence": 0.5577402114868164,
+          "avg_accuracy": 0.8673469387755102,
+          "gap": 0.30960672728869376
+        },
+        {
+          "bin": "0.6-0.7",
+          "proportion": 0.05475097138820205,
+          "avg_confidence": 0.6587401628494263,
+          "avg_accuracy": 0.9967741935483871,
+          "gap": 0.3380340306989609
+        },
+        {
+          "bin": "0.7-0.8",
+          "proportion": 0.16319321794418934,
+          "avg_confidence": 0.7573315501213074,
+          "avg_accuracy": 1.0,
+          "gap": 0.24266844987869263
+        },
+        {
+          "bin": "0.8-0.9",
+          "proportion": 0.3286824443659484,
+          "avg_confidence": 0.8536849617958069,
+          "avg_accuracy": 1.0,
+          "gap": 0.14631503820419312
+        },
+        {
+          "bin": "0.9-1.0",
+          "proportion": 0.4327092900035323,
+          "avg_confidence": 0.9584823250770569,
+          "avg_accuracy": 1.0,
+          "gap": 0.041517674922943115
+        }
+      ]
+    },
+    "entropy": {
+      "mean_entropy": 0.39576414227485657,
+      "std_entropy": 0.22873756289482117,
+      "max_entropy": 1.0737371444702148,
+      "min_entropy": 0.004377184901386499
+    },
+    "classwise": {
+      "Class 0": {
+        "accuracy": 0.998587570621469,
+        "count": 1416,
+        "predicted_count": 1423
+      },
+      "Class 1": {
+        "accuracy": 0.9929328621908127,
+        "count": 1415,
+        "predicted_count": 1412
+      },
+      "Class 2": {
+        "accuracy": 0.995053003533569,
+        "count": 1415,
+        "predicted_count": 1411
+      },
+      "Class 3": {
+        "accuracy": 0.998587570621469,
+        "count": 1416,
+        "predicted_count": 1416
+      }
+    }
+  },
+  "monthly_results": [
+    {
+      "accuracy": 0.7528675703858185,
+      "roc_auc": 0.9378656404685842,
+      "calibration": {
+        "ece": 0.02118776413894667,
+        "mce": 0.35997867584228516,
+        "bin_stats": [
+          {
+            "bin": "0.3-0.4",
+            "proportion": 0.0020855057351407717,
+            "avg_confidence": 0.35997867584228516,
+            "avg_accuracy": 0.0,
+            "gap": 0.35997867584228516
+          },
+          {
+            "bin": "0.4-0.5",
+            "proportion": 0.045881126173096975,
+            "avg_confidence": 0.4711596667766571,
+            "avg_accuracy": 0.5454545454545454,
+            "gap": 0.07429487867788831
+          },
+          {
+            "bin": "0.5-0.6",
+            "proportion": 0.15954118873826903,
+            "avg_confidence": 0.5503243803977966,
+            "avg_accuracy": 0.5424836601307189,
+            "gap": 0.007840720267077717
+          },
+          {
+            "bin": "0.6-0.7",
+            "proportion": 0.1616266944734098,
+            "avg_confidence": 0.6515710949897766,
+            "avg_accuracy": 0.6258064516129033,
+            "gap": 0.025764643376873342
+          },
+          {
+            "bin": "0.7-0.8",
+            "proportion": 0.17413972888425444,
+            "avg_confidence": 0.7467477917671204,
+            "avg_accuracy": 0.7365269461077845,
+            "gap": 0.010220845659335898
+          },
+          {
+            "bin": "0.8-0.9",
+            "proportion": 0.1616266944734098,
+            "avg_confidence": 0.8483190536499023,
+            "avg_accuracy": 0.8258064516129032,
+            "gap": 0.02251260203699912
+          },
+          {
+            "bin": "0.9-1.0",
+            "proportion": 0.29509906152241916,
+            "avg_confidence": 0.9644545912742615,
+            "avg_accuracy": 0.9434628975265018,
+            "gap": 0.020991693747759665
+          }
+        ]
+      },
+      "entropy": {
+        "mean_entropy": 0.5426743030548096,
+        "std_entropy": 0.29579147696495056,
+        "max_entropy": 1.2299315929412842,
+        "min_entropy": 0.008549412712454796
+      },
+      "classwise": {
+        "< Q25": {
+          "accuracy": 0.839622641509434,
+          "count": 212,
+          "predicted_count": 225
+        },
+        "Q25-Q50": {
+          "accuracy": 0.6302521008403361,
+          "count": 238,
+          "predicted_count": 222
+        },
+        "Q50-Q75": {
+          "accuracy": 0.6626016260162602,
+          "count": 246,
+          "predicted_count": 234
+        },
+        "> Q75": {
+          "accuracy": 0.8783269961977186,
+          "count": 263,
+          "predicted_count": 278
+        }
+      },
+      "error_concentration": {
+        "by_role": {
+          "Deep Learning Engineer": {
+            "accuracy": 0.6590909090909091,
+            "error_rate": 0.34090909090909094,
+            "count": 44
+          },
+          "ML Ops Engineer": {
+            "accuracy": 0.6666666666666666,
+            "error_rate": 0.33333333333333337,
+            "count": 51
+          },
+          "Computer Vision Engineer": {
+            "accuracy": 0.6739130434782609,
+            "error_rate": 0.32608695652173914,
+            "count": 46
+          },
+          "Data Analyst": {
+            "accuracy": 0.6808510638297872,
+            "error_rate": 0.3191489361702128,
+            "count": 47
+          },
+          "AI Product Manager": {
+            "accuracy": 0.6956521739130435,
+            "error_rate": 0.30434782608695654,
+            "count": 46
+          },
+          "Data Engineer": {
+            "accuracy": 0.6976744186046512,
+            "error_rate": 0.3023255813953488,
+            "count": 43
+          },
+          "AI Architect": {
+            "accuracy": 0.711864406779661,
+            "error_rate": 0.288135593220339,
+            "count": 59
+          },
+          "Machine Learning Researcher": {
+            "accuracy": 0.7142857142857143,
+            "error_rate": 0.2857142857142857,
+            "count": 42
+          },
+          "Robotics Engineer": {
+            "accuracy": 0.7361111111111112,
+            "error_rate": 0.26388888888888884,
+            "count": 72
+          },
+          "Head of AI": {
+            "accuracy": 0.7454545454545455,
+            "error_rate": 0.2545454545454545,
+            "count": 55
+          },
+          "Autonomous Systems Engineer": {
+            "accuracy": 0.75,
+            "error_rate": 0.25,
+            "count": 36
+          },
+          "Data Scientist": {
+            "accuracy": 0.7608695652173914,
+            "error_rate": 0.23913043478260865,
+            "count": 46
+          },
+          "AI Consultant": {
+            "accuracy": 0.782608695652174,
+            "error_rate": 0.21739130434782605,
+            "count": 46
+          },
+          "Machine Learning Engineer": {
+            "accuracy": 0.782608695652174,
+            "error_rate": 0.21739130434782605,
+            "count": 46
+          },
+          "Research Scientist": {
+            "accuracy": 0.7857142857142857,
+            "error_rate": 0.2142857142857143,
+            "count": 56
+          },
+          "AI Software Engineer": {
+            "accuracy": 0.7916666666666666,
+            "error_rate": 0.20833333333333337,
+            "count": 48
+          },
+          "AI Specialist": {
+            "accuracy": 0.8085106382978723,
+            "error_rate": 0.19148936170212771,
+            "count": 47
+          },
+          "NLP Engineer": {
+            "accuracy": 0.851063829787234,
+            "error_rate": 0.14893617021276595,
+            "count": 47
+          },
+          "Principal Data Scientist": {
+            "accuracy": 0.8604651162790697,
+            "error_rate": 0.13953488372093026,
+            "count": 43
+          },
+          "AI Research Scientist": {
+            "accuracy": 0.9487179487179487,
+            "error_rate": 0.05128205128205132,
+            "count": 39
+          }
+        },
+        "highest_error_role": "Deep Learning Engineer",
+        "lowest_error_role": "AI Research Scientist"
+      },
+      "month": "2024-07",
+      "n_samples": 959,
+      "timestamp": "2025-12-27T02:44:32.983500",
+      "accuracy_delta": -0.24342349284272258,
+      "roc_auc_delta": -0.06211722320949875,
+      "ece_delta": -0.1088544357815412
+    },
+    {
+      "accuracy": 0.7014613778705637,
+      "roc_auc": 0.9232247487551367,
+      "calibration": {
+        "ece": 0.06481153040439949,
+        "mce": 0.12059738043415758,
+        "bin_stats": [
+          {
+            "bin": "0.3-0.4",
+            "proportion": 0.006263048016701462,
+            "avg_confidence": 0.38019442558288574,
+            "avg_accuracy": 0.3333333333333333,
+            "gap": 0.04686109224955243
+          },
+          {
+            "bin": "0.4-0.5",
+            "proportion": 0.054279749478079335,
+            "avg_confidence": 0.4743112325668335,
+            "avg_accuracy": 0.5769230769230769,
+            "gap": 0.10261184435624338
+          },
+          {
+            "bin": "0.5-0.6",
+            "proportion": 0.16597077244258873,
+            "avg_confidence": 0.5489473342895508,
+            "avg_accuracy": 0.5031446540880503,
+            "gap": 0.04580268020150047
+          },
+          {
+            "bin": "0.6-0.7",
+            "proportion": 0.18058455114822547,
+            "avg_confidence": 0.6523892879486084,
+            "avg_accuracy": 0.5317919075144508,
+            "gap": 0.12059738043415758
+          },
+          {
+            "bin": "0.7-0.8",
+            "proportion": 0.15970772442588727,
+            "avg_confidence": 0.7554762363433838,
+            "avg_accuracy": 0.6666666666666666,
+            "gap": 0.08880956967671716
+          },
+          {
+            "bin": "0.8-0.9",
+            "proportion": 0.17118997912317327,
+            "avg_confidence": 0.8481715321540833,
+            "avg_accuracy": 0.7682926829268293,
+            "gap": 0.07987884922725397
+          },
+          {
+            "bin": "0.9-1.0",
+            "proportion": 0.2620041753653445,
+            "avg_confidence": 0.9627031683921814,
+            "avg_accuracy": 0.9561752988047809,
+            "gap": 0.006527869587400481
+          }
+        ]
+      },
+      "entropy": {
+        "mean_entropy": 0.5622066855430603,
+        "std_entropy": 0.2865457832813263,
+        "max_entropy": 1.1661423444747925,
+        "min_entropy": 0.006576362997293472
+      },
+      "classwise": {
+        "< Q25": {
+          "accuracy": 0.8099547511312217,
+          "count": 221,
+          "predicted_count": 224
+        },
+        "Q25-Q50": {
+          "accuracy": 0.6544715447154471,
+          "count": 246,
+          "predicted_count": 250
+        },
+        "Q50-Q75": {
+          "accuracy": 0.5440613026819924,
+          "count": 261,
+          "predicted_count": 218
+        },
+        "> Q75": {
+          "accuracy": 0.8260869565217391,
+          "count": 230,
+          "predicted_count": 266
+        }
+      },
+      "error_concentration": {
+        "by_role": {
+          "NLP Engineer": {
+            "accuracy": 0.49019607843137253,
+            "error_rate": 0.5098039215686274,
+            "count": 51
+          },
+          "AI Software Engineer": {
+            "accuracy": 0.6,
+            "error_rate": 0.4,
+            "count": 40
+          },
+          "AI Product Manager": {
+            "accuracy": 0.6666666666666666,
+            "error_rate": 0.33333333333333337,
+            "count": 51
+          },
+          "Autonomous Systems Engineer": {
+            "accuracy": 0.6666666666666666,
+            "error_rate": 0.33333333333333337,
+            "count": 48
+          },
+          "Robotics Engineer": {
+            "accuracy": 0.6666666666666666,
+            "error_rate": 0.33333333333333337,
+            "count": 42
+          },
+          "Data Analyst": {
+            "accuracy": 0.68,
+            "error_rate": 0.31999999999999995,
+            "count": 50
+          },
+          "Computer Vision Engineer": {
+            "accuracy": 0.6808510638297872,
+            "error_rate": 0.3191489361702128,
+            "count": 47
+          },
+          "Head of AI": {
+            "accuracy": 0.6851851851851852,
+            "error_rate": 0.31481481481481477,
+            "count": 54
+          },
+          "Data Scientist": {
+            "accuracy": 0.6923076923076923,
+            "error_rate": 0.3076923076923077,
+            "count": 39
+          },
+          "AI Specialist": {
+            "accuracy": 0.7037037037037037,
+            "error_rate": 0.2962962962962963,
+            "count": 54
+          },
+          "Machine Learning Researcher": {
+            "accuracy": 0.7037037037037037,
+            "error_rate": 0.2962962962962963,
+            "count": 54
+          },
+          "ML Ops Engineer": {
+            "accuracy": 0.7073170731707317,
+            "error_rate": 0.29268292682926833,
+            "count": 41
+          },
+          "Data Engineer": {
+            "accuracy": 0.7090909090909091,
+            "error_rate": 0.2909090909090909,
+            "count": 55
+          },
+          "AI Architect": {
+            "accuracy": 0.72,
+            "error_rate": 0.28,
+            "count": 50
+          },
+          "AI Consultant": {
+            "accuracy": 0.7333333333333333,
+            "error_rate": 0.2666666666666667,
+            "count": 45
+          },
+          "AI Research Scientist": {
+            "accuracy": 0.7631578947368421,
+            "error_rate": 0.23684210526315785,
+            "count": 38
+          },
+          "Machine Learning Engineer": {
+            "accuracy": 0.7735849056603774,
+            "error_rate": 0.2264150943396226,
+            "count": 53
+          },
+          "Research Scientist": {
+            "accuracy": 0.7777777777777778,
+            "error_rate": 0.2222222222222222,
+            "count": 54
+          },
+          "Principal Data Scientist": {
+            "accuracy": 0.7916666666666666,
+            "error_rate": 0.20833333333333337,
+            "count": 48
+          },
+          "Deep Learning Engineer": {
+            "accuracy": 0.8181818181818182,
+            "error_rate": 0.18181818181818177,
+            "count": 44
+          }
+        },
+        "highest_error_role": "NLP Engineer",
+        "lowest_error_role": "Deep Learning Engineer"
+      },
+      "month": "2024-08",
+      "n_samples": 958,
+      "timestamp": "2025-12-27T02:44:33.439731",
+      "accuracy_delta": -0.2948296853579774,
+      "roc_auc_delta": -0.07675811492294626,
+      "ece_delta": -0.06523066951608839
+    },
+    {
+      "accuracy": 0.7374301675977654,
+      "roc_auc": 0.9273828388013968,
+      "calibration": {
+        "ece": 0.038221707090985185,
+        "mce": 0.06997727869200876,
+        "bin_stats": [
+          {
+            "bin": "0.3-0.4",
+            "proportion": 0.0033519553072625698,
+            "avg_confidence": 0.3868025243282318,
+            "avg_accuracy": 0.3333333333333333,
+            "gap": 0.0534691909948985
+          },
+          {
+            "bin": "0.4-0.5",
+            "proportion": 0.034636871508379886,
+            "avg_confidence": 0.4785807430744171,
+            "avg_accuracy": 0.45161290322580644,
+            "gap": 0.026967839848610675
+          },
+          {
+            "bin": "0.5-0.6",
+            "proportion": 0.15977653631284916,
+            "avg_confidence": 0.552039384841919,
+            "avg_accuracy": 0.5804195804195804,
+            "gap": 0.02838019557766147
+          },
+          {
+            "bin": "0.6-0.7",
+            "proportion": 0.17206703910614526,
+            "avg_confidence": 0.6438981294631958,
+            "avg_accuracy": 0.6103896103896104,
+            "gap": 0.03350851907358543
+          },
+          {
+            "bin": "0.7-0.8",
+            "proportion": 0.1877094972067039,
+            "avg_confidence": 0.7475047707557678,
+            "avg_accuracy": 0.7023809523809523,
+            "gap": 0.045123818374815494
+          },
+          {
+            "bin": "0.8-0.9",
+            "proportion": 0.15307262569832403,
+            "avg_confidence": 0.8509991765022278,
+            "avg_accuracy": 0.781021897810219,
+            "gap": 0.06997727869200876
+          },
+          {
+            "bin": "0.9-1.0",
+            "proportion": 0.28938547486033517,
+            "avg_confidence": 0.9645777940750122,
+            "avg_accuracy": 0.9382239382239382,
+            "gap": 0.02635385585107397
+          }
+        ]
+      },
+      "entropy": {
+        "mean_entropy": 0.5396954417228699,
+        "std_entropy": 0.28689077496528625,
+        "max_entropy": 1.1182782649993896,
+        "min_entropy": 0.004997814539819956
+      },
+      "classwise": {
+        "< Q25": {
+          "accuracy": 0.8262910798122066,
+          "count": 213,
+          "predicted_count": 210
+        },
+        "Q25-Q50": {
+          "accuracy": 0.6457399103139013,
+          "count": 223,
+          "predicted_count": 220
+        },
+        "Q50-Q75": {
+          "accuracy": 0.6203703703703703,
+          "count": 216,
+          "predicted_count": 215
+        },
+        "> Q75": {
+          "accuracy": 0.8477366255144033,
+          "count": 243,
+          "predicted_count": 250
+        }
+      },
+      "error_concentration": {
+        "by_role": {
+          "AI Product Manager": {
+            "accuracy": 0.6190476190476191,
+            "error_rate": 0.38095238095238093,
+            "count": 42
+          },
+          "Machine Learning Engineer": {
+            "accuracy": 0.625,
+            "error_rate": 0.375,
+            "count": 48
+          },
+          "Principal Data Scientist": {
+            "accuracy": 0.6470588235294118,
+            "error_rate": 0.3529411764705882,
+            "count": 34
+          },
+          "Data Engineer": {
+            "accuracy": 0.6744186046511628,
+            "error_rate": 0.32558139534883723,
+            "count": 43
+          },
+          "Data Analyst": {
+            "accuracy": 0.6779661016949152,
+            "error_rate": 0.3220338983050848,
+            "count": 59
+          },
+          "Deep Learning Engineer": {
+            "accuracy": 0.7115384615384616,
+            "error_rate": 0.28846153846153844,
+            "count": 52
+          },
+          "AI Consultant": {
+            "accuracy": 0.7222222222222222,
+            "error_rate": 0.2777777777777778,
+            "count": 54
+          },
+          "Data Scientist": {
+            "accuracy": 0.7222222222222222,
+            "error_rate": 0.2777777777777778,
+            "count": 36
+          },
+          "AI Software Engineer": {
+            "accuracy": 0.7297297297297297,
+            "error_rate": 0.2702702702702703,
+            "count": 37
+          },
+          "AI Architect": {
+            "accuracy": 0.7380952380952381,
+            "error_rate": 0.26190476190476186,
+            "count": 42
+          },
+          "Computer Vision Engineer": {
+            "accuracy": 0.7391304347826086,
+            "error_rate": 0.26086956521739135,
+            "count": 46
+          },
+          "NLP Engineer": {
+            "accuracy": 0.75,
+            "error_rate": 0.25,
+            "count": 44
+          },
+          "Head of AI": {
+            "accuracy": 0.7708333333333334,
+            "error_rate": 0.22916666666666663,
+            "count": 48
+          },
+          "AI Research Scientist": {
+            "accuracy": 0.7755102040816326,
+            "error_rate": 0.22448979591836737,
+            "count": 49
+          },
+          "Robotics Engineer": {
+            "accuracy": 0.7777777777777778,
+            "error_rate": 0.2222222222222222,
+            "count": 45
+          },
+          "Autonomous Systems Engineer": {
+            "accuracy": 0.7837837837837838,
+            "error_rate": 0.21621621621621623,
+            "count": 37
+          },
+          "ML Ops Engineer": {
+            "accuracy": 0.7878787878787878,
+            "error_rate": 0.21212121212121215,
+            "count": 33
+          },
+          "Research Scientist": {
+            "accuracy": 0.8,
+            "error_rate": 0.19999999999999996,
+            "count": 30
+          },
+          "Machine Learning Researcher": {
+            "accuracy": 0.8307692307692308,
+            "error_rate": 0.16923076923076918,
+            "count": 65
+          },
+          "AI Specialist": {
+            "accuracy": 0.8431372549019608,
+            "error_rate": 0.1568627450980392,
+            "count": 51
+          }
+        },
+        "highest_error_role": "AI Product Manager",
+        "lowest_error_role": "AI Specialist"
+      },
+      "month": "2024-09",
+      "n_samples": 895,
+      "timestamp": "2025-12-27T02:44:33.862228",
+      "accuracy_delta": -0.25886089563077574,
+      "roc_auc_delta": -0.07260002487668615,
+      "ece_delta": -0.09182049282950269
+    },
+    {
+      "accuracy": 0.7376185458377239,
+      "roc_auc": 0.9280530998622043,
+      "calibration": {
+        "ece": 0.037866580567947825,
+        "mce": 0.3898761570453644,
+        "bin_stats": [
+          {
+            "bin": "0.3-0.4",
+            "proportion": 0.001053740779768177,
+            "avg_confidence": 0.3898761570453644,
+            "avg_accuracy": 0.0,
+            "gap": 0.3898761570453644
+          },
+          {
+            "bin": "0.4-0.5",
+            "proportion": 0.04214963119072708,
+            "avg_confidence": 0.4722171723842621,
+            "avg_accuracy": 0.475,
+            "gap": 0.002782827615737893
+          },
+          {
+            "bin": "0.5-0.6",
+            "proportion": 0.16859852476290832,
+            "avg_confidence": 0.5478323101997375,
+            "avg_accuracy": 0.575,
+            "gap": 0.027167689800262407
+          },
+          {
+            "bin": "0.6-0.7",
+            "proportion": 0.1654373024236038,
+            "avg_confidence": 0.6484673619270325,
+            "avg_accuracy": 0.6242038216560509,
+            "gap": 0.024263540270981543
+          },
+          {
+            "bin": "0.7-0.8",
+            "proportion": 0.15806111696522657,
+            "avg_confidence": 0.7449714541435242,
+            "avg_accuracy": 0.6866666666666666,
+            "gap": 0.05830478747685752
+          },
+          {
+            "bin": "0.8-0.9",
+            "proportion": 0.1654373024236038,
+            "avg_confidence": 0.8461508750915527,
+            "avg_accuracy": 0.7388535031847133,
+            "gap": 0.10729737190683941
+          },
+          {
+            "bin": "0.9-1.0",
+            "proportion": 0.2992623814541623,
+            "avg_confidence": 0.963685154914856,
+            "avg_accuracy": 0.9577464788732394,
+            "gap": 0.005938676041616575
+          }
+        ]
+      },
+      "entropy": {
+        "mean_entropy": 0.5422345399856567,
+        "std_entropy": 0.29507675766944885,
+        "max_entropy": 1.1430668830871582,
+        "min_entropy": 0.007433089427649975
+      },
+      "classwise": {
+        "< Q25": {
+          "accuracy": 0.8553191489361702,
+          "count": 235,
+          "predicted_count": 249
+        },
+        "Q25-Q50": {
+          "accuracy": 0.6016949152542372,
+          "count": 236,
+          "predicted_count": 217
+        },
+        "Q50-Q75": {
+          "accuracy": 0.6626506024096386,
+          "count": 249,
+          "predicted_count": 245
+        },
+        "> Q75": {
+          "accuracy": 0.8384279475982532,
+          "count": 229,
+          "predicted_count": 238
+        }
+      },
+      "error_concentration": {
+        "by_role": {
+          "AI Consultant": {
+            "accuracy": 0.5952380952380952,
+            "error_rate": 0.40476190476190477,
+            "count": 42
+          },
+          "Deep Learning Engineer": {
+            "accuracy": 0.6,
+            "error_rate": 0.4,
+            "count": 40
+          },
+          "AI Software Engineer": {
+            "accuracy": 0.6122448979591837,
+            "error_rate": 0.3877551020408163,
+            "count": 49
+          },
+          "Machine Learning Researcher": {
+            "accuracy": 0.6595744680851063,
+            "error_rate": 0.34042553191489366,
+            "count": 47
+          },
+          "Data Analyst": {
+            "accuracy": 0.660377358490566,
+            "error_rate": 0.339622641509434,
+            "count": 53
+          },
+          "ML Ops Engineer": {
+            "accuracy": 0.6666666666666666,
+            "error_rate": 0.33333333333333337,
+            "count": 48
+          },
+          "Head of AI": {
+            "accuracy": 0.6808510638297872,
+            "error_rate": 0.3191489361702128,
+            "count": 47
+          },
+          "Machine Learning Engineer": {
+            "accuracy": 0.6857142857142857,
+            "error_rate": 0.3142857142857143,
+            "count": 35
+          },
+          "Data Engineer": {
+            "accuracy": 0.6904761904761905,
+            "error_rate": 0.30952380952380953,
+            "count": 42
+          },
+          "Research Scientist": {
+            "accuracy": 0.7,
+            "error_rate": 0.30000000000000004,
+            "count": 40
+          },
+          "AI Research Scientist": {
+            "accuracy": 0.7454545454545455,
+            "error_rate": 0.2545454545454545,
+            "count": 55
+          },
+          "Principal Data Scientist": {
+            "accuracy": 0.7608695652173914,
+            "error_rate": 0.23913043478260865,
+            "count": 46
+          },
+          "AI Architect": {
+            "accuracy": 0.7843137254901961,
+            "error_rate": 0.21568627450980393,
+            "count": 51
+          },
+          "AI Specialist": {
+            "accuracy": 0.8,
+            "error_rate": 0.19999999999999996,
+            "count": 45
+          },
+          "NLP Engineer": {
+            "accuracy": 0.8,
+            "error_rate": 0.19999999999999996,
+            "count": 55
+          },
+          "Autonomous Systems Engineer": {
+            "accuracy": 0.8275862068965517,
+            "error_rate": 0.1724137931034483,
+            "count": 58
+          },
+          "Data Scientist": {
+            "accuracy": 0.8333333333333334,
+            "error_rate": 0.16666666666666663,
+            "count": 48
+          },
+          "Robotics Engineer": {
+            "accuracy": 0.84,
+            "error_rate": 0.16000000000000003,
+            "count": 50
+          },
+          "AI Product Manager": {
+            "accuracy": 0.8490566037735849,
+            "error_rate": 0.15094339622641506,
+            "count": 53
+          },
+          "Computer Vision Engineer": {
+            "accuracy": 0.8666666666666667,
+            "error_rate": 0.1333333333333333,
+            "count": 45
+          }
+        },
+        "highest_error_role": "AI Consultant",
+        "lowest_error_role": "Computer Vision Engineer"
+      },
+      "month": "2024-10",
+      "n_samples": 949,
+      "timestamp": "2025-12-27T02:44:34.346232",
+      "accuracy_delta": -0.2586725173908172,
+      "roc_auc_delta": -0.07192976381587868,
+      "ece_delta": -0.09217561935254005
+    },
+    {
+      "accuracy": 0.745119305856833,
+      "roc_auc": 0.9372321745519361,
+      "calibration": {
+        "ece": 0.028639364688618833,
+        "mce": 0.2155559559663137,
+        "bin_stats": [
+          {
+            "bin": "0.3-0.4",
+            "proportion": 0.006507592190889371,
+            "avg_confidence": 0.38222262263298035,
+            "avg_accuracy": 0.16666666666666666,
+            "gap": 0.2155559559663137
+          },
+          {
+            "bin": "0.4-0.5",
+            "proportion": 0.04880694143167028,
+            "avg_confidence": 0.47031792998313904,
+            "avg_accuracy": 0.5333333333333333,
+            "gap": 0.06301540335019429
+          },
+          {
+            "bin": "0.5-0.6",
+            "proportion": 0.1702819956616052,
+            "avg_confidence": 0.5496264696121216,
+            "avg_accuracy": 0.5605095541401274,
+            "gap": 0.010883084528005793
+          },
+          {
+            "bin": "0.6-0.7",
+            "proportion": 0.1843817787418655,
+            "avg_confidence": 0.6486092805862427,
+            "avg_accuracy": 0.5941176470588235,
+            "gap": 0.05449163352741915
+          },
+          {
+            "bin": "0.7-0.8",
+            "proportion": 0.15726681127982647,
+            "avg_confidence": 0.7538805603981018,
+            "avg_accuracy": 0.7586206896551724,
+            "gap": 0.004740129257070569
+          },
+          {
+            "bin": "0.8-0.9",
+            "proportion": 0.1561822125813449,
+            "avg_confidence": 0.8510772585868835,
+            "avg_accuracy": 0.7916666666666666,
+            "gap": 0.059410591920216915
+          },
+          {
+            "bin": "0.9-1.0",
+            "proportion": 0.2765726681127983,
+            "avg_confidence": 0.9683851003646851,
+            "avg_accuracy": 0.9764705882352941,
+            "gap": 0.008085487870609032
+          }
+        ]
+      },
+      "entropy": {
+        "mean_entropy": 0.5523468852043152,
+        "std_entropy": 0.2995230257511139,
+        "max_entropy": 1.1859383583068848,
+        "min_entropy": 0.005335373803973198
+      },
+      "classwise": {
+        "< Q25": {
+          "accuracy": 0.8376068376068376,
+          "count": 234,
+          "predicted_count": 231
+        },
+        "Q25-Q50": {
+          "accuracy": 0.6574074074074074,
+          "count": 216,
+          "predicted_count": 225
+        },
+        "Q50-Q75": {
+          "accuracy": 0.6118143459915611,
+          "count": 237,
+          "predicted_count": 211
+        },
+        "> Q75": {
+          "accuracy": 0.8680851063829788,
+          "count": 235,
+          "predicted_count": 255
+        }
+      },
+      "error_concentration": {
+        "by_role": {
+          "AI Architect": {
+            "accuracy": 0.6,
+            "error_rate": 0.4,
+            "count": 50
+          },
+          "Autonomous Systems Engineer": {
+            "accuracy": 0.6444444444444445,
+            "error_rate": 0.3555555555555555,
+            "count": 45
+          },
+          "Robotics Engineer": {
+            "accuracy": 0.6842105263157895,
+            "error_rate": 0.3157894736842105,
+            "count": 38
+          },
+          "Machine Learning Engineer": {
+            "accuracy": 0.7,
+            "error_rate": 0.30000000000000004,
+            "count": 40
+          },
+          "Computer Vision Engineer": {
+            "accuracy": 0.7021276595744681,
+            "error_rate": 0.2978723404255319,
+            "count": 47
+          },
+          "AI Research Scientist": {
+            "accuracy": 0.7045454545454546,
+            "error_rate": 0.2954545454545454,
+            "count": 44
+          },
+          "ML Ops Engineer": {
+            "accuracy": 0.72,
+            "error_rate": 0.28,
+            "count": 50
+          },
+          "Research Scientist": {
+            "accuracy": 0.7272727272727273,
+            "error_rate": 0.2727272727272727,
+            "count": 44
+          },
+          "Head of AI": {
+            "accuracy": 0.7446808510638298,
+            "error_rate": 0.25531914893617025,
+            "count": 47
+          },
+          "AI Specialist": {
+            "accuracy": 0.75,
+            "error_rate": 0.25,
+            "count": 44
+          },
+          "Data Engineer": {
+            "accuracy": 0.7555555555555555,
+            "error_rate": 0.24444444444444446,
+            "count": 45
+          },
+          "Principal Data Scientist": {
+            "accuracy": 0.7674418604651163,
+            "error_rate": 0.2325581395348837,
+            "count": 43
+          },
+          "Machine Learning Researcher": {
+            "accuracy": 0.7692307692307693,
+            "error_rate": 0.23076923076923073,
+            "count": 52
+          },
+          "AI Software Engineer": {
+            "accuracy": 0.7708333333333334,
+            "error_rate": 0.22916666666666663,
+            "count": 48
+          },
+          "AI Consultant": {
+            "accuracy": 0.7727272727272727,
+            "error_rate": 0.2272727272727273,
+            "count": 44
+          },
+          "NLP Engineer": {
+            "accuracy": 0.78,
+            "error_rate": 0.21999999999999997,
+            "count": 50
+          },
+          "Data Scientist": {
+            "accuracy": 0.7966101694915254,
+            "error_rate": 0.2033898305084746,
+            "count": 59
+          },
+          "Deep Learning Engineer": {
+            "accuracy": 0.8,
+            "error_rate": 0.19999999999999996,
+            "count": 45
+          },
+          "AI Product Manager": {
+            "accuracy": 0.8372093023255814,
+            "error_rate": 0.16279069767441856,
+            "count": 43
+          },
+          "Data Analyst": {
+            "accuracy": 0.8636363636363636,
+            "error_rate": 0.13636363636363635,
+            "count": 44
+          }
+        },
+        "highest_error_role": "AI Architect",
+        "lowest_error_role": "Data Analyst"
+      },
+      "month": "2024-11",
+      "n_samples": 922,
+      "timestamp": "2025-12-27T02:44:34.813763",
+      "accuracy_delta": -0.25117175737170816,
+      "roc_auc_delta": -0.0627506891261469,
+      "ece_delta": -0.10140283523186905
+    },
+    {
+      "accuracy": 0.7612095933263816,
+      "roc_auc": 0.9370037436796236,
+      "calibration": {
+        "ece": 0.025946517308884542,
+        "mce": 0.09183361530303957,
+        "bin_stats": [
+          {
+            "bin": "0.3-0.4",
+            "proportion": 0.0031282586027111575,
+            "avg_confidence": 0.3660946786403656,
+            "avg_accuracy": 0.3333333333333333,
+            "gap": 0.032761345307032286
+          },
+          {
+            "bin": "0.4-0.5",
+            "proportion": 0.04483837330552659,
+            "avg_confidence": 0.46917614340782166,
+            "avg_accuracy": 0.5348837209302325,
+            "gap": 0.06570757752241085
+          },
+          {
+            "bin": "0.5-0.6",
+            "proportion": 0.15849843587069865,
+            "avg_confidence": 0.5471373796463013,
+            "avg_accuracy": 0.5657894736842105,
+            "gap": 0.01865209403790924
+          },
+          {
+            "bin": "0.6-0.7",
+            "proportion": 0.16058394160583941,
+            "avg_confidence": 0.6491780281066895,
+            "avg_accuracy": 0.6363636363636364,
+            "gap": 0.0128143917430531
+          },
+          {
+            "bin": "0.7-0.8",
+            "proportion": 0.1480709071949948,
+            "avg_confidence": 0.7444130182266235,
+            "avg_accuracy": 0.7535211267605634,
+            "gap": 0.00910810853393984
+          },
+          {
+            "bin": "0.8-0.9",
+            "proportion": 0.16684045881126172,
+            "avg_confidence": 0.8480836153030396,
+            "avg_accuracy": 0.75625,
+            "gap": 0.09183361530303957
+          },
+          {
+            "bin": "0.9-1.0",
+            "proportion": 0.3180396246089677,
+            "avg_confidence": 0.9677499532699585,
+            "avg_accuracy": 0.9639344262295082,
+            "gap": 0.003815527040450295
+          }
+        ]
+      },
+      "entropy": {
+        "mean_entropy": 0.5260539054870605,
+        "std_entropy": 0.30524200201034546,
+        "max_entropy": 1.1818139553070068,
+        "min_entropy": 0.006435263901948929
+      },
+      "classwise": {
+        "< Q25": {
+          "accuracy": 0.852589641434263,
+          "count": 251,
+          "predicted_count": 253
+        },
+        "Q25-Q50": {
+          "accuracy": 0.6386554621848739,
+          "count": 238,
+          "predicted_count": 229
+        },
+        "Q50-Q75": {
+          "accuracy": 0.6563876651982379,
+          "count": 227,
+          "predicted_count": 223
+        },
+        "> Q75": {
+          "accuracy": 0.8847736625514403,
+          "count": 243,
+          "predicted_count": 254
+        }
+      },
+      "error_concentration": {
+        "by_role": {
+          "AI Consultant": {
+            "accuracy": 0.6153846153846154,
+            "error_rate": 0.3846153846153846,
+            "count": 39
+          },
+          "NLP Engineer": {
+            "accuracy": 0.6666666666666666,
+            "error_rate": 0.33333333333333337,
+            "count": 42
+          },
+          "Research Scientist": {
+            "accuracy": 0.6744186046511628,
+            "error_rate": 0.32558139534883723,
+            "count": 43
+          },
+          "Head of AI": {
+            "accuracy": 0.6829268292682927,
+            "error_rate": 0.31707317073170727,
+            "count": 41
+          },
+          "Robotics Engineer": {
+            "accuracy": 0.6981132075471698,
+            "error_rate": 0.30188679245283023,
+            "count": 53
+          },
+          "Computer Vision Engineer": {
+            "accuracy": 0.7111111111111111,
+            "error_rate": 0.28888888888888886,
+            "count": 45
+          },
+          "Machine Learning Engineer": {
+            "accuracy": 0.7115384615384616,
+            "error_rate": 0.28846153846153844,
+            "count": 52
+          },
+          "Autonomous Systems Engineer": {
+            "accuracy": 0.72,
+            "error_rate": 0.28,
+            "count": 50
+          },
+          "AI Specialist": {
+            "accuracy": 0.7272727272727273,
+            "error_rate": 0.2727272727272727,
+            "count": 33
+          },
+          "Principal Data Scientist": {
+            "accuracy": 0.7352941176470589,
+            "error_rate": 0.2647058823529411,
+            "count": 34
+          },
+          "Data Analyst": {
+            "accuracy": 0.7555555555555555,
+            "error_rate": 0.24444444444444446,
+            "count": 45
+          },
+          "ML Ops Engineer": {
+            "accuracy": 0.7627118644067796,
+            "error_rate": 0.23728813559322037,
+            "count": 59
+          },
+          "AI Architect": {
+            "accuracy": 0.7884615384615384,
+            "error_rate": 0.21153846153846156,
+            "count": 52
+          },
+          "Deep Learning Engineer": {
+            "accuracy": 0.8,
+            "error_rate": 0.19999999999999996,
+            "count": 45
+          },
+          "AI Software Engineer": {
+            "accuracy": 0.8059701492537313,
+            "error_rate": 0.19402985074626866,
+            "count": 67
+          },
+          "Data Scientist": {
+            "accuracy": 0.8260869565217391,
+            "error_rate": 0.17391304347826086,
+            "count": 46
+          },
+          "AI Product Manager": {
+            "accuracy": 0.8301886792452831,
+            "error_rate": 0.16981132075471694,
+            "count": 53
+          },
+          "Data Engineer": {
+            "accuracy": 0.8461538461538461,
+            "error_rate": 0.15384615384615385,
+            "count": 52
+          },
+          "AI Research Scientist": {
+            "accuracy": 0.8545454545454545,
+            "error_rate": 0.1454545454545455,
+            "count": 55
+          },
+          "Machine Learning Researcher": {
+            "accuracy": 0.8867924528301887,
+            "error_rate": 0.1132075471698113,
+            "count": 53
+          }
+        },
+        "highest_error_role": "AI Consultant",
+        "lowest_error_role": "Machine Learning Researcher"
+      },
+      "month": "2024-12",
+      "n_samples": 959,
+      "timestamp": "2025-12-27T02:44:35.274180",
+      "accuracy_delta": -0.2350814699021595,
+      "roc_auc_delta": -0.0629791199984594,
+      "ece_delta": -0.10409568261160333
+    },
+    {
+      "accuracy": 0.7437759336099585,
+      "roc_auc": 0.935384137986039,
+      "calibration": {
+        "ece": 0.030039883006163167,
+        "mce": 0.12962883710861206,
+        "bin_stats": [
+          {
+            "bin": "0.3-0.4",
+            "proportion": 0.004149377593360996,
+            "avg_confidence": 0.37962883710861206,
+            "avg_accuracy": 0.25,
+            "gap": 0.12962883710861206
+          },
+          {
+            "bin": "0.4-0.5",
+            "proportion": 0.04564315352697095,
+            "avg_confidence": 0.4760160446166992,
+            "avg_accuracy": 0.38636363636363635,
+            "gap": 0.08965240825306287
+          },
+          {
+            "bin": "0.5-0.6",
+            "proportion": 0.15871369294605808,
+            "avg_confidence": 0.5473208427429199,
+            "avg_accuracy": 0.5555555555555556,
+            "gap": 0.008234712812635658
+          },
+          {
+            "bin": "0.6-0.7",
+            "proportion": 0.15871369294605808,
+            "avg_confidence": 0.6488497853279114,
+            "avg_accuracy": 0.5947712418300654,
+            "gap": 0.05407854349784602
+          },
+          {
+            "bin": "0.7-0.8",
+            "proportion": 0.16493775933609958,
+            "avg_confidence": 0.751923143863678,
+            "avg_accuracy": 0.710691823899371,
+            "gap": 0.041231319964306956
+          },
+          {
+            "bin": "0.8-0.9",
+            "proportion": 0.15871369294605808,
+            "avg_confidence": 0.8509254455566406,
+            "avg_accuracy": 0.8169934640522876,
+            "gap": 0.03393198150435306
+          },
+          {
+            "bin": "0.9-1.0",
+            "proportion": 0.3091286307053942,
+            "avg_confidence": 0.9671608209609985,
+            "avg_accuracy": 0.9563758389261745,
+            "gap": 0.010784982034824031
+          }
+        ]
+      },
+      "entropy": {
+        "mean_entropy": 0.5268910527229309,
+        "std_entropy": 0.29963967204093933,
+        "max_entropy": 1.1416164636611938,
+        "min_entropy": 0.007983795367181301
+      },
+      "classwise": {
+        "< Q25": {
+          "accuracy": 0.8481012658227848,
+          "count": 237,
+          "predicted_count": 242
+        },
+        "Q25-Q50": {
+          "accuracy": 0.6695652173913044,
+          "count": 230,
+          "predicted_count": 240
+        },
+        "Q50-Q75": {
+          "accuracy": 0.5949367088607594,
+          "count": 237,
+          "predicted_count": 215
+        },
+        "> Q75": {
+          "accuracy": 0.85,
+          "count": 260,
+          "predicted_count": 267
+        }
+      },
+      "error_concentration": {
+        "by_role": {
+          "AI Research Scientist": {
+            "accuracy": 0.6545454545454545,
+            "error_rate": 0.34545454545454546,
+            "count": 55
+          },
+          "AI Consultant": {
+            "accuracy": 0.6666666666666666,
+            "error_rate": 0.33333333333333337,
+            "count": 54
+          },
+          "AI Software Engineer": {
+            "accuracy": 0.673469387755102,
+            "error_rate": 0.326530612244898,
+            "count": 49
+          },
+          "Deep Learning Engineer": {
+            "accuracy": 0.6744186046511628,
+            "error_rate": 0.32558139534883723,
+            "count": 43
+          },
+          "Machine Learning Engineer": {
+            "accuracy": 0.7058823529411765,
+            "error_rate": 0.2941176470588235,
+            "count": 51
+          },
+          "Machine Learning Researcher": {
+            "accuracy": 0.7213114754098361,
+            "error_rate": 0.2786885245901639,
+            "count": 61
+          },
+          "Data Scientist": {
+            "accuracy": 0.725,
+            "error_rate": 0.275,
+            "count": 40
+          },
+          "AI Architect": {
+            "accuracy": 0.7333333333333333,
+            "error_rate": 0.2666666666666667,
+            "count": 60
+          },
+          "Data Engineer": {
+            "accuracy": 0.7368421052631579,
+            "error_rate": 0.26315789473684215,
+            "count": 38
+          },
+          "Computer Vision Engineer": {
+            "accuracy": 0.7380952380952381,
+            "error_rate": 0.26190476190476186,
+            "count": 42
+          },
+          "Autonomous Systems Engineer": {
+            "accuracy": 0.7435897435897436,
+            "error_rate": 0.2564102564102564,
+            "count": 39
+          },
+          "NLP Engineer": {
+            "accuracy": 0.76,
+            "error_rate": 0.24,
+            "count": 50
+          },
+          "Principal Data Scientist": {
+            "accuracy": 0.7608695652173914,
+            "error_rate": 0.23913043478260865,
+            "count": 46
+          },
+          "Head of AI": {
+            "accuracy": 0.7727272727272727,
+            "error_rate": 0.2272727272727273,
+            "count": 44
+          },
+          "Data Analyst": {
+            "accuracy": 0.7777777777777778,
+            "error_rate": 0.2222222222222222,
+            "count": 45
+          },
+          "ML Ops Engineer": {
+            "accuracy": 0.7857142857142857,
+            "error_rate": 0.2142857142857143,
+            "count": 56
+          },
+          "AI Product Manager": {
+            "accuracy": 0.7906976744186046,
+            "error_rate": 0.2093023255813954,
+            "count": 43
+          },
+          "Research Scientist": {
+            "accuracy": 0.8043478260869565,
+            "error_rate": 0.19565217391304346,
+            "count": 46
+          },
+          "Robotics Engineer": {
+            "accuracy": 0.8043478260869565,
+            "error_rate": 0.19565217391304346,
+            "count": 46
+          },
+          "AI Specialist": {
+            "accuracy": 0.8571428571428571,
+            "error_rate": 0.1428571428571429,
+            "count": 56
+          }
+        },
+        "highest_error_role": "AI Research Scientist",
+        "lowest_error_role": "AI Specialist"
+      },
+      "month": "2025-01",
+      "n_samples": 964,
+      "timestamp": "2025-12-27T02:44:35.757737",
+      "accuracy_delta": -0.2525151296185826,
+      "roc_auc_delta": -0.06459872569204395,
+      "ece_delta": -0.10000231691432471
+    },
+    {
+      "accuracy": 0.7095238095238096,
+      "roc_auc": 0.922637793296814,
+      "calibration": {
+        "ece": 0.0700212391004676,
+        "mce": 0.6173835098743439,
+        "bin_stats": [
+          {
+            "bin": "0.3-0.4",
+            "proportion": 0.0011904761904761906,
+            "avg_confidence": 0.38261649012565613,
+            "avg_accuracy": 1.0,
+            "gap": 0.6173835098743439
+          },
+          {
+            "bin": "0.4-0.5",
+            "proportion": 0.047619047619047616,
+            "avg_confidence": 0.47440463304519653,
+            "avg_accuracy": 0.6,
+            "gap": 0.12559536695480344
+          },
+          {
+            "bin": "0.5-0.6",
+            "proportion": 0.15,
+            "avg_confidence": 0.5464557409286499,
+            "avg_accuracy": 0.5158730158730159,
+            "gap": 0.030582725055633975
+          },
+          {
+            "bin": "0.6-0.7",
+            "proportion": 0.17857142857142858,
+            "avg_confidence": 0.6501899361610413,
+            "avg_accuracy": 0.5733333333333334,
+            "gap": 0.0768566028277079
+          },
+          {
+            "bin": "0.7-0.8",
+            "proportion": 0.19166666666666668,
+            "avg_confidence": 0.7485194206237793,
+            "avg_accuracy": 0.6894409937888198,
+            "gap": 0.05907842683495945
+          },
+          {
+            "bin": "0.8-0.9",
+            "proportion": 0.16666666666666666,
+            "avg_confidence": 0.8503440618515015,
+            "avg_accuracy": 0.6642857142857143,
+            "gap": 0.1860583475657872
+          },
+          {
+            "bin": "0.9-1.0",
+            "proportion": 0.2642857142857143,
+            "avg_confidence": 0.9629057049751282,
+            "avg_accuracy": 0.972972972972973,
+            "gap": 0.010067267997844853
+          }
+        ]
+      },
+      "entropy": {
+        "mean_entropy": 0.5583899617195129,
+        "std_entropy": 0.2845580279827118,
+        "max_entropy": 1.1465226411819458,
+        "min_entropy": 0.006076483055949211
+      },
+      "classwise": {
+        "< Q25": {
+          "accuracy": 0.8115183246073299,
+          "count": 191,
+          "predicted_count": 192
+        },
+        "Q25-Q50": {
+          "accuracy": 0.627906976744186,
+          "count": 215,
+          "predicted_count": 218
+        },
+        "Q50-Q75": {
+          "accuracy": 0.5826086956521739,
+          "count": 230,
+          "predicted_count": 208
+        },
+        "> Q75": {
+          "accuracy": 0.8431372549019608,
+          "count": 204,
+          "predicted_count": 222
+        }
+      },
+      "error_concentration": {
+        "by_role": {
+          "Machine Learning Engineer": {
+            "accuracy": 0.6097560975609756,
+            "error_rate": 0.3902439024390244,
+            "count": 41
+          },
+          "ML Ops Engineer": {
+            "accuracy": 0.6363636363636364,
+            "error_rate": 0.36363636363636365,
+            "count": 44
+          },
+          "AI Software Engineer": {
+            "accuracy": 0.64,
+            "error_rate": 0.36,
+            "count": 50
+          },
+          "Research Scientist": {
+            "accuracy": 0.6470588235294118,
+            "error_rate": 0.3529411764705882,
+            "count": 34
+          },
+          "AI Product Manager": {
+            "accuracy": 0.6666666666666666,
+            "error_rate": 0.33333333333333337,
+            "count": 27
+          },
+          "Computer Vision Engineer": {
+            "accuracy": 0.6756756756756757,
+            "error_rate": 0.32432432432432434,
+            "count": 37
+          },
+          "Autonomous Systems Engineer": {
+            "accuracy": 0.6785714285714286,
+            "error_rate": 0.3214285714285714,
+            "count": 56
+          },
+          "AI Consultant": {
+            "accuracy": 0.7073170731707317,
+            "error_rate": 0.29268292682926833,
+            "count": 41
+          },
+          "Data Scientist": {
+            "accuracy": 0.7142857142857143,
+            "error_rate": 0.2857142857142857,
+            "count": 35
+          },
+          "Data Analyst": {
+            "accuracy": 0.725,
+            "error_rate": 0.275,
+            "count": 40
+          },
+          "Principal Data Scientist": {
+            "accuracy": 0.7258064516129032,
+            "error_rate": 0.27419354838709675,
+            "count": 62
+          },
+          "Deep Learning Engineer": {
+            "accuracy": 0.7272727272727273,
+            "error_rate": 0.2727272727272727,
+            "count": 44
+          },
+          "AI Architect": {
+            "accuracy": 0.7297297297297297,
+            "error_rate": 0.2702702702702703,
+            "count": 37
+          },
+          "Head of AI": {
+            "accuracy": 0.7333333333333333,
+            "error_rate": 0.2666666666666667,
+            "count": 60
+          },
+          "AI Research Scientist": {
+            "accuracy": 0.7428571428571429,
+            "error_rate": 0.2571428571428571,
+            "count": 35
+          },
+          "Data Engineer": {
+            "accuracy": 0.75,
+            "error_rate": 0.25,
+            "count": 36
+          },
+          "Machine Learning Researcher": {
+            "accuracy": 0.75,
+            "error_rate": 0.25,
+            "count": 32
+          },
+          "NLP Engineer": {
+            "accuracy": 0.7567567567567568,
+            "error_rate": 0.2432432432432432,
+            "count": 37
+          },
+          "AI Specialist": {
+            "accuracy": 0.7674418604651163,
+            "error_rate": 0.2325581395348837,
+            "count": 43
+          },
+          "Robotics Engineer": {
+            "accuracy": 0.7959183673469388,
+            "error_rate": 0.20408163265306123,
+            "count": 49
+          }
+        },
+        "highest_error_role": "Machine Learning Engineer",
+        "lowest_error_role": "Robotics Engineer"
+      },
+      "month": "2025-02",
+      "n_samples": 840,
+      "timestamp": "2025-12-27T02:44:36.186233",
+      "accuracy_delta": -0.28676725370473155,
+      "roc_auc_delta": -0.07734507038126903,
+      "ece_delta": -0.06002096082002027
+    },
+    {
+      "accuracy": 0.7212581344902386,
+      "roc_auc": 0.9249348517375022,
+      "calibration": {
+        "ece": 0.04951807691709596,
+        "mce": 0.17347095521179945,
+        "bin_stats": [
+          {
+            "bin": "0.3-0.4",
+            "proportion": 0.0032537960954446853,
+            "avg_confidence": 0.3940107822418213,
+            "avg_accuracy": 0.3333333333333333,
+            "gap": 0.060677448908487974
+          },
+          {
+            "bin": "0.4-0.5",
+            "proportion": 0.033622559652928416,
+            "avg_confidence": 0.4781067669391632,
+            "avg_accuracy": 0.4838709677419355,
+            "gap": 0.00576420080277229
+          },
+          {
+            "bin": "0.5-0.6",
+            "proportion": 0.17245119305856832,
+            "avg_confidence": 0.5481947660446167,
+            "avg_accuracy": 0.5408805031446541,
+            "gap": 0.00731426289996262
+          },
+          {
+            "bin": "0.6-0.7",
+            "proportion": 0.14967462039045554,
+            "avg_confidence": 0.651988685131073,
+            "avg_accuracy": 0.5942028985507246,
+            "gap": 0.057785786580348386
+          },
+          {
+            "bin": "0.7-0.8",
+            "proportion": 0.1843817787418655,
+            "avg_confidence": 0.7467060089111328,
+            "avg_accuracy": 0.6882352941176471,
+            "gap": 0.058470714793485756
+          },
+          {
+            "bin": "0.8-0.9",
+            "proportion": 0.15509761388286333,
+            "avg_confidence": 0.8517926335334778,
+            "avg_accuracy": 0.6783216783216783,
+            "gap": 0.17347095521179945
+          },
+          {
+            "bin": "0.9-1.0",
+            "proportion": 0.30151843817787416,
+            "avg_confidence": 0.9655078053474426,
+            "avg_accuracy": 0.960431654676259,
+            "gap": 0.00507615067118361
+          }
+        ]
+      },
+      "entropy": {
+        "mean_entropy": 0.5326030254364014,
+        "std_entropy": 0.29503151774406433,
+        "max_entropy": 1.1067261695861816,
+        "min_entropy": 0.005762262269854546
+      },
+      "classwise": {
+        "< Q25": {
+          "accuracy": 0.8600823045267489,
+          "count": 243,
+          "predicted_count": 252
+        },
+        "Q25-Q50": {
+          "accuracy": 0.6448598130841121,
+          "count": 214,
+          "predicted_count": 210
+        },
+        "Q50-Q75": {
+          "accuracy": 0.5434782608695652,
+          "count": 230,
+          "predicted_count": 200
+        },
+        "> Q75": {
+          "accuracy": 0.8212765957446808,
+          "count": 235,
+          "predicted_count": 260
+        }
+      },
+      "error_concentration": {
+        "by_role": {
+          "Computer Vision Engineer": {
+            "accuracy": 0.5526315789473685,
+            "error_rate": 0.4473684210526315,
+            "count": 38
+          },
+          "AI Architect": {
+            "accuracy": 0.5789473684210527,
+            "error_rate": 0.42105263157894735,
+            "count": 38
+          },
+          "AI Software Engineer": {
+            "accuracy": 0.6481481481481481,
+            "error_rate": 0.35185185185185186,
+            "count": 54
+          },
+          "Robotics Engineer": {
+            "accuracy": 0.6521739130434783,
+            "error_rate": 0.34782608695652173,
+            "count": 46
+          },
+          "Data Scientist": {
+            "accuracy": 0.6666666666666666,
+            "error_rate": 0.33333333333333337,
+            "count": 48
+          },
+          "NLP Engineer": {
+            "accuracy": 0.6774193548387096,
+            "error_rate": 0.32258064516129037,
+            "count": 31
+          },
+          "Data Analyst": {
+            "accuracy": 0.7045454545454546,
+            "error_rate": 0.2954545454545454,
+            "count": 44
+          },
+          "Autonomous Systems Engineer": {
+            "accuracy": 0.7115384615384616,
+            "error_rate": 0.28846153846153844,
+            "count": 52
+          },
+          "Deep Learning Engineer": {
+            "accuracy": 0.7272727272727273,
+            "error_rate": 0.2727272727272727,
+            "count": 44
+          },
+          "AI Product Manager": {
+            "accuracy": 0.7307692307692307,
+            "error_rate": 0.2692307692307693,
+            "count": 52
+          },
+          "Machine Learning Engineer": {
+            "accuracy": 0.734375,
+            "error_rate": 0.265625,
+            "count": 64
+          },
+          "AI Specialist": {
+            "accuracy": 0.7380952380952381,
+            "error_rate": 0.26190476190476186,
+            "count": 42
+          },
+          "Principal Data Scientist": {
+            "accuracy": 0.7446808510638298,
+            "error_rate": 0.25531914893617025,
+            "count": 47
+          },
+          "Research Scientist": {
+            "accuracy": 0.7454545454545455,
+            "error_rate": 0.2545454545454545,
+            "count": 55
+          },
+          "AI Consultant": {
+            "accuracy": 0.75,
+            "error_rate": 0.25,
+            "count": 36
+          },
+          "AI Research Scientist": {
+            "accuracy": 0.7647058823529411,
+            "error_rate": 0.23529411764705888,
+            "count": 51
+          },
+          "ML Ops Engineer": {
+            "accuracy": 0.8,
+            "error_rate": 0.19999999999999996,
+            "count": 40
+          },
+          "Head of AI": {
+            "accuracy": 0.8076923076923077,
+            "error_rate": 0.1923076923076923,
+            "count": 26
+          },
+          "Machine Learning Researcher": {
+            "accuracy": 0.8113207547169812,
+            "error_rate": 0.18867924528301883,
+            "count": 53
+          },
+          "Data Engineer": {
+            "accuracy": 0.819672131147541,
+            "error_rate": 0.180327868852459,
+            "count": 61
+          }
+        },
+        "highest_error_role": "Computer Vision Engineer",
+        "lowest_error_role": "Data Engineer"
+      },
+      "month": "2025-03",
+      "n_samples": 922,
+      "timestamp": "2025-12-27T02:44:36.630160",
+      "accuracy_delta": -0.27503292873830254,
+      "roc_auc_delta": -0.07504801194058075,
+      "ece_delta": -0.08052412300339191
+    },
+    {
+      "accuracy": 0.7524752475247525,
+      "roc_auc": 0.9326315666768057,
+      "calibration": {
+        "ece": 0.04439945032100862,
+        "mce": 0.6230775117874146,
+        "bin_stats": [
+          {
+            "bin": "0.3-0.4",
+            "proportion": 0.0033003300330033004,
+            "avg_confidence": 0.37692248821258545,
+            "avg_accuracy": 1.0,
+            "gap": 0.6230775117874146
+          },
+          {
+            "bin": "0.4-0.5",
+            "proportion": 0.041804180418041806,
+            "avg_confidence": 0.4723489284515381,
+            "avg_accuracy": 0.5789473684210527,
+            "gap": 0.10659843996951457
+          },
+          {
+            "bin": "0.5-0.6",
+            "proportion": 0.15291529152915292,
+            "avg_confidence": 0.5532233119010925,
+            "avg_accuracy": 0.5755395683453237,
+            "gap": 0.022316256444231186
+          },
+          {
+            "bin": "0.6-0.7",
+            "proportion": 0.1496149614961496,
+            "avg_confidence": 0.649608314037323,
+            "avg_accuracy": 0.5808823529411765,
+            "gap": 0.06872596109614648
+          },
+          {
+            "bin": "0.7-0.8",
+            "proportion": 0.1705170517051705,
+            "avg_confidence": 0.754016101360321,
+            "avg_accuracy": 0.7096774193548387,
+            "gap": 0.0443386820054823
+          },
+          {
+            "bin": "0.8-0.9",
+            "proportion": 0.16501650165016502,
+            "avg_confidence": 0.8491975665092468,
+            "avg_accuracy": 0.7666666666666667,
+            "gap": 0.08253089984258011
+          },
+          {
+            "bin": "0.9-1.0",
+            "proportion": 0.31683168316831684,
+            "avg_confidence": 0.9643691182136536,
+            "avg_accuracy": 0.9548611111111112,
+            "gap": 0.009508007102542404
+          }
+        ]
+      },
+      "entropy": {
+        "mean_entropy": 0.5229572653770447,
+        "std_entropy": 0.29407352209091187,
+        "max_entropy": 1.128951072692871,
+        "min_entropy": 0.0035416290629655123
+      },
+      "classwise": {
+        "< Q25": {
+          "accuracy": 0.8620689655172413,
+          "count": 203,
+          "predicted_count": 212
+        },
+        "Q25-Q50": {
+          "accuracy": 0.6451612903225806,
+          "count": 217,
+          "predicted_count": 208
+        },
+        "Q50-Q75": {
+          "accuracy": 0.6473029045643154,
+          "count": 241,
+          "predicted_count": 229
+        },
+        "> Q75": {
+          "accuracy": 0.8588709677419355,
+          "count": 248,
+          "predicted_count": 260
+        }
+      },
+      "error_concentration": {
+        "by_role": {
+          "Data Scientist": {
+            "accuracy": 0.6,
+            "error_rate": 0.4,
+            "count": 40
+          },
+          "AI Specialist": {
+            "accuracy": 0.6590909090909091,
+            "error_rate": 0.34090909090909094,
+            "count": 44
+          },
+          "Computer Vision Engineer": {
+            "accuracy": 0.6956521739130435,
+            "error_rate": 0.30434782608695654,
+            "count": 46
+          },
+          "Robotics Engineer": {
+            "accuracy": 0.7209302325581395,
+            "error_rate": 0.2790697674418605,
+            "count": 43
+          },
+          "AI Software Engineer": {
+            "accuracy": 0.7333333333333333,
+            "error_rate": 0.2666666666666667,
+            "count": 30
+          },
+          "Data Analyst": {
+            "accuracy": 0.7346938775510204,
+            "error_rate": 0.26530612244897955,
+            "count": 49
+          },
+          "AI Consultant": {
+            "accuracy": 0.7358490566037735,
+            "error_rate": 0.26415094339622647,
+            "count": 53
+          },
+          "Machine Learning Researcher": {
+            "accuracy": 0.7384615384615385,
+            "error_rate": 0.2615384615384615,
+            "count": 65
+          },
+          "Principal Data Scientist": {
+            "accuracy": 0.7391304347826086,
+            "error_rate": 0.26086956521739135,
+            "count": 46
+          },
+          "AI Research Scientist": {
+            "accuracy": 0.75,
+            "error_rate": 0.25,
+            "count": 52
+          },
+          "Head of AI": {
+            "accuracy": 0.75,
+            "error_rate": 0.25,
+            "count": 44
+          },
+          "ML Ops Engineer": {
+            "accuracy": 0.7555555555555555,
+            "error_rate": 0.24444444444444446,
+            "count": 45
+          },
+          "AI Architect": {
+            "accuracy": 0.7631578947368421,
+            "error_rate": 0.23684210526315785,
+            "count": 38
+          },
+          "Deep Learning Engineer": {
+            "accuracy": 0.782608695652174,
+            "error_rate": 0.21739130434782605,
+            "count": 46
+          },
+          "Data Engineer": {
+            "accuracy": 0.7857142857142857,
+            "error_rate": 0.2142857142857143,
+            "count": 42
+          },
+          "Autonomous Systems Engineer": {
+            "accuracy": 0.7924528301886793,
+            "error_rate": 0.2075471698113207,
+            "count": 53
+          },
+          "Machine Learning Engineer": {
+            "accuracy": 0.8163265306122449,
+            "error_rate": 0.18367346938775508,
+            "count": 49
+          },
+          "AI Product Manager": {
+            "accuracy": 0.8292682926829268,
+            "error_rate": 0.1707317073170732,
+            "count": 41
+          },
+          "Research Scientist": {
+            "accuracy": 0.8292682926829268,
+            "error_rate": 0.1707317073170732,
+            "count": 41
+          },
+          "NLP Engineer": {
+            "accuracy": 0.8333333333333334,
+            "error_rate": 0.16666666666666663,
+            "count": 42
+          }
+        },
+        "highest_error_role": "Data Scientist",
+        "lowest_error_role": "NLP Engineer"
+      },
+      "month": "2025-04",
+      "n_samples": 909,
+      "timestamp": "2025-12-27T02:44:37.059189",
+      "accuracy_delta": -0.24381581570378863,
+      "roc_auc_delta": -0.06735129700127729,
+      "ece_delta": -0.08564274959947926
+    }
+  ],
+  "trends": {
+    "months": [
+      "2024-07",
+      "2024-08",
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04"
+    ],
+    "accuracy": [
+      0.7528675703858185,
+      0.7014613778705637,
+      0.7374301675977654,
+      0.7376185458377239,
+      0.745119305856833,
+      0.7612095933263816,
+      0.7437759336099585,
+      0.7095238095238096,
+      0.7212581344902386,
+      0.7524752475247525
+    ],
+    "roc_auc": [
+      0.9378656404685842,
+      0.9232247487551367,
+      0.9273828388013968,
+      0.9280530998622043,
+      0.9372321745519361,
+      0.9370037436796236,
+      0.935384137986039,
+      0.922637793296814,
+      0.9249348517375022,
+      0.9326315666768057
+    ],
+    "ece": [
+      0.02118776413894667,
+      0.06481153040439949,
+      0.038221707090985185,
+      0.037866580567947825,
+      0.028639364688618833,
+      0.025946517308884542,
+      0.030039883006163167,
+      0.0700212391004676,
+      0.04951807691709596,
+      0.04439945032100862
+    ],
+    "mean_entropy": [
+      0.5426743030548096,
+      0.5622066855430603,
+      0.5396954417228699,
+      0.5422345399856567,
+      0.5523468852043152,
+      0.5260539054870605,
+      0.5268910527229309,
+      0.5583899617195129,
+      0.5326030254364014,
+      0.5229572653770447
+    ],
+    "n_samples": [
+      959,
+      958,
+      895,
+      949,
+      922,
+      959,
+      964,
+      840,
+      922,
+      909
+    ]
+  },
+  "failure_month": "2024-07"
+}
